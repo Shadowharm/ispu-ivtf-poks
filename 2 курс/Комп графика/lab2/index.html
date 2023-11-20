@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example Lab 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        canvas{
+            display: block;
+            margin: auto;
+            background-color: white;
+        }
+
+        body {
+            background-color: #EEE;
+        }
+
+        .controls{
+            display: flex;
+            flex-direction: row;
+            justify-items: space-between;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="controls">
+        <label for="full">Full Line</label>
+        <input name="full" type="checkbox" id="full-line">
+        <label for="inner">Inner Line</label>
+        <input name="inner" type="checkbox" id="inner-line" checked>
+    </div>
+    <div style="margin-bottom: 20px; display: flex; flex-direction: row; gap: 20px">
+        <div>  
+            <div style="margin-bottom: 20px;">
+                <label for="start-line">Координаты начала отрезка</label>
+                <input id="start-line-x" placeholder="x" name="start-line" type="number" min="1" max="30">
+                <input id="start-line-y" placeholder="y" type="number" min="1" max="30">
+            </div>
+            <div>
+                <label for="end-line">Координаты конца отрезка</label>
+                <input id="end-line-x" placeholder="x" name="end-line" type="number" min="1" max="30">
+                <input id="end-line-y" placeholder="y" type="number" min="1" max="30">
+            </div>
+        </div>
+        <div>
+            <div style="margin-bottom: 20px;">
+                <label for="start-matrix">Координаты начала рамки</label>
+                <input id="start-matrix-x" placeholder="x" name="start-matrix" type="number" min="1" max="30">
+                <input id="start-matrix-y" placeholder="y" type="number" min="1" max="30">
+            </div>
+            <div>
+                <label for="end-matrix">Координаты конца рамки</label>
+                <input id="end-matrix-x" placeholder="x" name="end-matrix" type="number" min="1" max="30">
+                <input id="end-matrix-y" placeholder="y" type="number" min="1" max="30">
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="lab2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/index.html">Фрактал kali</a>
+    <a href="/julia.html">Множество Жюлиа</a>
+    <a href="/biomorph.html">Биоморф</a>
+    <a href="/koh.html">Снежинка Коха</a>
+    <a href="/serp.html">Треугольник Серпинского</a>
+    <h1>Бассейн Ньютона</h1>
+    <p>z^5-1 = 0</p>
+    <canvas width="400" height="400" id="canvas"></canvas>
+<input type="range" min="0" max="400" id="coef" value="100">
+    <script lang="js">
+        class Complex {
+  constructor({algebraic,trigonometric} = {}) {
+    if (algebraic) {
+      this.initAlgebraic(algebraic);
+    } else if (trigonometric) {
+      this.initTrigonometric(trigonometric)
+    } else {
+      throw new Error('Invalid arguments');
+    }
+  }
+  static fromReal(r) {
+    return Complex.fromAlgebraic(r, 0);
+  }
+  static fromAlgebraic(r, i) {
+    return new Complex({algebraic: {r,i}});
+  }
+  static fromTrigonometric(modulus, arg) {
+    return new Complex({trigonometric: {modulus,arg}});
+  }
+
+  initAlgebraic({r,i}) {
+    this.r = r;
+    this.i = i;
+    this.modulus = Math.sqrt(r * r + i * i);
+    this.arg = Math.atan2(i, r)
+  }
+  initTrigonometric({modulus,arg}) {
+    this.modulus = modulus,
+    this.arg = arg;
+    this.r = this.modulus * Math.cos(arg);
+    this.i = this.modulus * Math.sin(arg);
+  }
+  pow(exp) {
+    return Complex.fromTrigonometric(Math.pow(this.modulus, exp), exp * this.arg);
+  }
+  add(c) {
+    return Complex.fromAlgebraic(this.r + c.r, this.i + c.i);
+  }
+  conjugate(){
+  	return Complex.fromAlgebraic(this.r, -this.i);
+  }
+  sub(c){
+  	return Complex.fromAlgebraic(this.r - c.r, this.i - c.i);
+  }
+  mul(c){
+  	return Complex.fromAlgebraic(this.r*c.r-this.i*c.i, this.r*c.i+this.i*c.r);
+  }
+  div(c){
+  	var cConjugate = c.conjugate();
+    var mulToConjugate = this.mul(cConjugate);
+    var divider = c.mul(cConjugate).r;
+    return Complex.fromAlgebraic(mulToConjugate.r/divider, mulToConjugate.i/divider);
+  }
+}
+let c = canvas.getContext('2d'), w = canvas.width, h = canvas.height 
+function formula(x,y, maxIter, max, min){
+  var z = Complex.fromAlgebraic(x,y);
+  var d = z;
+  for(var i=0;i<maxIter && z.modulus<max && d.modulus>min;i++){
+    //var z1 = z.sub(z.pow(3).add(Complex.fromReal(-1)).div(z.pow(2).mul(Complex.fromReal(3))));
+    var z1 = z.sub(z.pow(5).add(Complex.fromReal(-1)).div(z.pow(4).mul(Complex.fromReal(5))));
+    var z2 = z1.sub(z);
+    d = Complex.fromAlgebraic(Math.abs(z2.r),Math.abs(z2.i));
+    z = z1;
+  }
+  return [i, z];
+}
+var input = document.getElementById('coef');
+input.addEventListener('change',function(){
+  draw(this.value);
+});
+
+var maxDistance = input.max;
+function draw(distance){
+    var xc = w/2;
+    var yc = h/2;
+    var coef = 0.0015 + distance * ((0.015-0.0015)/maxDistance);
+    var img = c.getImageData(0, 0, w, h);
+    var aaa = 0;
+    for(var y = -h/2; y<h/2; y++) {
+      for(var x = -w/2; x<w/2; x++) {
+        let [value,root] = formula(x*coef, y*coef, 50,1e6, 1e-6);       
+        
+        let offset = ((y+yc)*w + x+xc)*4 
+        img.data[offset]     = (value*7)%255;
+        img.data[offset + 1] = (value*5)%255;
+        img.data[offset + 2] = (value*11)%255;
+        img.data[offset + 3] = 255
+      }
+    }
+    c.putImageData(img, 0, 0) ;
+};
+draw(100);
+    </script>
+
+</body>
+</html>

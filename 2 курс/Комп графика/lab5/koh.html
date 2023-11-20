@@ -1,0 +1,134 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+<title>Снежинки Коха</title>
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+
+var cnv, ctx, al, sel
+
+function getPoints(c,b,h,m){
+var p,L,k,i,j,phi
+
+var pts=new Array(4)
+for (i=0;i<pts.length;i++){
+pts[i]=new Array(2)
+}
+
+var n=sel.selectedIndex
+var kf=0.05+0.95*(n+1)*(n+1)/(m+1)/(m+1)
+// if(!al.checked) kf=1
+pts[0][0]=c[0]-Math.round(b*kf)
+pts[0][1]=c[1]-Math.round(h*kf)
+pts[1][0]=c[0]+Math.round(b*kf)
+pts[1][1]=c[1]-Math.round(h*kf)
+pts[2][0]=c[0]
+pts[2][1]=c[1]+Math.round(2*h*kf)
+pts[3][0]=pts[0][0]
+pts[3][1]=pts[0][1]
+
+
+for(k=1;k<=n;k++){
+p=new Array(4*pts.length-3)
+for(i=0;i<pts.length-1;i++){
+  for(j=0;j<4;j++) { 
+    p[4*i+j]=new Array(2)
+  }
+
+  for(j=0;j<2;j++){
+    p[4*i][j]=pts[i][j]
+    p[4*i+1][j]=Math.round(2*pts[i][j]/3+pts[i+1][j]/3)
+    p[4*i+3][j]=Math.round(pts[i][j]/3+2*pts[i+1][j]/3)
+  }
+
+  L=Math.sqrt(Math.pow(p[4*i+3][0]-p[4*i+1][0],2)+Math.pow(p[4*i+3][1]-p[4*i+1][1],2))
+
+  phi=Math.atan2((p[4*i+1][1]-p[4*i+3][1]),(p[4*i+3][0]-p[4*i+1][0])) 
+
+  p[4*i+2][0]=Math.round(p[4*i+1][0]+L*Math.cos(phi+Math.PI/3))
+  p[4*i+2][1]=Math.round(p[4*i+1][1]-L*Math.sin(phi+Math.PI/3))
+}
+
+p[4*pts.length-4]=new Array(2)
+for(j=0;j<2;j++){
+  p[4*pts.length-4][j]=pts[pts.length-1][j]
+}
+
+for(i=0;i<pts.length;i++){
+  delete pts[i]
+}
+delete pts
+
+pts=p
+}
+return pts
+}
+
+function drawPoints(p, ct){
+ct.beginPath()
+ct.strokeStyle="blue"
+ct.lineWidth=1
+ct.moveTo(p[0][0],p[0][1])
+for(var k=1;k<p.length;k++){
+ct.lineTo(p[k][0],p[k][1]);
+}
+ct.stroke()
+}
+
+window.onload=function(){
+cnv=document.getElementById("mycanvas")
+ctx=cnv.getContext("2d")
+sel=document.getElementById("mysel")
+// al=document.getElementById("all")
+
+var k, Nmax=6
+for(k=0;k<=Nmax;k++){
+sel.options[k]=new Option(k,k)
+}
+sel.selectedIndex=Math.floor((Nmax+1)*Math.random())
+
+// al.checked=false
+var h=Math.round(380/Math.sqrt(3.0))
+drawPoints(getPoints([460, 460],380, h, Nmax), ctx)
+
+sel.onchange=function(){
+// if(!al.checked){
+  ctx.fillStyle="White";
+  ctx.fillRect(0,0,cnv.width,cnv.height)
+// }
+drawPoints(getPoints([460, 460],380, h, Nmax), ctx)
+}  
+// al.onchange=function(){
+// ctx.fillStyle="White";
+// ctx.fillRect(0,0,cnv.width-1,cnv.height-1)
+// drawPoints(getPoints([460, 460],380, h, Nmax), ctx)
+// }  
+
+}
+
+</script>
+</head>
+
+<body>
+    <div>
+    <a href="/index.html">Фрактал kali</a>
+    <a href="/newton.html">Бассейн Ньютона</a>
+    <a href="/biomorph.html">Биоморф</a>
+    <a href="/julia.html">Множество Жюлиа</a> 
+    <a href="/serp.html">Треугольник Серпинского</a>  </div>
+<span style="font-size:18pt;font-weight:bold;">Снежинка Коха: </span>
+<span style="font-size:16pt;">Укажите число итераций:</span>
+<select id="mysel" size="1" style="width:50px;text-align:right;font-size:11pt;font-weight:bold;"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select>
+<!-- <span style="font-size:16pt;"> Одновременно </span> -->
+<!-- <input type="checkbox" id="all"> -->
+<br><br>
+
+<canvas id="mycanvas" width="920" height="920" style="border-style:ridge;"></canvas>
+
+
+
+
+
+</body></html>

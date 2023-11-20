@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/index.html">Фрактал kali</a>
+    <a href="/newton.html">Бассейн Ньютона</a>
+    <a href="/biomorph.html">Биоморф</a>
+    <a href="/koh.html">Снежинка Коха</a>
+    <a href="/julia.html">Множество Жюлиа</a>
+    <h1>Треугольник Серпинского</h1>
+    <canvas id="myCanvas"></canvas>
+
+<script>
+  const c = document.getElementById("myCanvas");
+  c.style.display = 'block';
+  c.style.margin = '0px auto';
+  c.width = 800;
+  c.height = 800;
+  
+  const ctx = c.getContext("2d");
+  
+  let lastPosition = [20,500];
+  
+  drawPoint();
+  drawDefaultPoint();
+  
+  setInterval(function(){
+    generateRandomPoint();
+  },1)
+  
+  function drawPoint(){
+    ctx.beginPath();
+    ctx.font = "18px Arial";
+    ctx.fillText("A", 15, 660);
+    ctx.fillStyle = "#008000";
+    ctx.arc(20, 600,3,0, Math.PI * 2, true);
+    ctx.fill();
+  
+    ctx.beginPath();
+    ctx.font = "18px Arial";
+    ctx.fillText("B", 395, 30);
+    ctx.fillStyle = "#ff2626";
+    ctx.arc(400, 60,3,0, Math.PI * 2, true);
+    ctx.fill();
+  
+    ctx.beginPath();
+    ctx.font = "18px Arial";
+    ctx.fillText("C", 770, 660);
+    ctx.fillStyle = "#0000ff";
+    ctx.arc(780, 600,3,0, Math.PI * 2, true);
+    ctx.fill();
+  }
+  
+  function drawDefaultPoint(){
+    ctx.beginPath();
+    ctx.fillStyle = "#0000ff";
+    ctx.arc(lastPosition[0], lastPosition[1],3,0, Math.PI * 2, true);
+    ctx.fill();
+  }
+  
+  function generateRandomPoint(){
+    const random = Math.round(Math.random()*2);
+    let x = null;
+    let y = null;
+  
+    const [lastX, lastY] = lastPosition;
+  
+    if(random === 0){ // A
+      x = (lastX + 20) / 2;
+      y = (lastY + 600) / 2;
+    }else if(random === 1){ // b
+      x = (lastX + 400) / 2;
+      y = (lastY + 60) / 2;
+    }else if(random === 2){ // c
+      x = (lastX + 780) / 2;
+      y = (lastY + 600) / 2;
+    }
+  
+    lastPosition[0] = x;
+    lastPosition[1] = y;
+    
+    ctx.beginPath();
+    ctx.fillStyle = "#000000";
+    ctx.arc(x, y, 1, 0, Math.PI * 2, true);
+    ctx.fill();
+  }
+</script>
+</body>
+</html>

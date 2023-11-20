@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {font-family: tahoma; background-color:black; color:#000}
+        b {color:#000;}
+        table {font-size: 10pt;}
+        hr {color: #F1D106;}
+        li {padding-bottom: 4px;}
+        canvas, button {display: block; margin: auto; background-color: white; }
+        .code {margin:5px; padding: 5px; border:1px solid #F1D106; background-color:#eee; color:#111; font-family:courier}
+        .code b {color:black;}
+        .code i {color:#666;}
+        
+                .container{
+                    display: flex;
+                    flex-direction: "row";
+                }
+        
+                .center-container{
+                    background-color: red;
+                    width: 800px;
+                    height: 600px;
+                    margin: auto;
+                }
+        
+                #transforms-box{
+                    box-sizing: border-box;
+                    background-color: #EFDEFF;
+                    width: 200px;
+                    height: 180px;
+                    padding: 5px;
+                    border: 1px gray solid;
+                    overflow-y: auto;
+                }
+        
+                #transforms-box > div{
+                    margin-bottom: 5px;
+                    padding: 5px; 
+                    background-color: #DDAADD;
+                }
+        
+                #transforms-box > div > button{
+                    padding: 1px;
+                }
+        
+                #transforms-box > div > span{
+                    vertical-align: center;
+                    float: right;
+                    color: red;
+                }
+        
+                #add-transform{
+                    box-sizing: border-box;
+                    background-color: #CACAFA;
+                    width: 200px;
+                    height: 420px;
+                    padding: 5px;
+                    border: 1px gray solid;
+                }
+        
+                .add-transform{
+                    border: 1px gray solid;
+                    padding: 5px;
+                }
+        
+                .add-transform > div{
+                    clear: both;
+                }
+        
+                .add-transform > div > input{
+                    float: right;
+                    width: 100px;
+                }
+        
+        </style>
+    <div class="center-container">
+        <div class="container">
+            <div>
+                <div id="transforms-box"></div>
+                <div id="add-transform">
+                    <div class="add-transform" id="add-rotation">
+                        <div>
+                            <label for="angle">Angle</label>
+                            <input id="angle" name="angle" type="text">
+                        </div>
+                        <div>
+                            <label for="x">x</label>
+                            <input id="x" name="x" type="text">
+                        </div>
+                        <div>
+                            <label for="y">y</label>
+                            <input id="y" name="y" type="text">
+                        </div>
+                        <button id="add-rotation-button">Rotation</button>
+                    </div>
+                    <div class="add-transform" id="add-translate">
+                        <div>
+                            <label for="x">dx</label>
+                            <input id="dx" name="x" type="text">
+                        </div>
+                        <div>
+                            <label for="y">dy</label>
+                            <input id="dy" name="y" type="text">
+                        </div>
+                        <button id="add-translate-button">Translate</button>
+                    </div>
+                    <div class="add-transform" id="add-scale">
+                        <div>
+                            <label for="x">sx</label>
+                            <input id="sx" name="x" type="text">
+                        </div>
+                        <div>
+                            <label for="y">sy</label>
+                            <input id="sy" name="y" type="text">
+                        </div>
+                        <button id="add-scale-button">Scale</button>
+                    </div>
+                    <div class="add-transform" id="add-skew">
+                        <div>
+                            <label for="a">a</label>
+                            <input value="1" id="a" name="a" type="text">
+                        </div>
+                        <div>
+                            <label for="b">b</label>
+                            <input value="0" id="b" name="b" type="text">
+                        </div>
+                        <div>
+                            <label for="c">c</label>
+                            <input value="0" id="c" name="c" type="text">
+                        </div>
+                        <div>
+                            <label for="d">d</label>
+                            <input value="1" id="d" name="d" type="text">
+                        </div>
+                        <span style="white-space: nowrap;">x = ax + cy, y = bx + dy</span>
+                        <button id="add-skew-button">Skew</button>
+                    </div>
+                    <div>
+                        <label for="debug">Дебаг</label>
+                        <input type="checkbox" id="debug">
+                    </div>
+                </div>
+            </div>
+            <canvas id="canvas" style="width:600px;height:600px" width="600" height="600"></canvas>
+        </div>
+    </div>
+    <script lang="js" src="./ui.js"></script>
+    <script lang="js" src="./lab4.js"></script>
+</body>
+</html>

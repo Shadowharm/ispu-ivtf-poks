@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/index.html">Фрактал kali</a>
+    <a href="/julia.html">Множество Жюлиа</a>
+    <a href="/newton.html">Бассейн Ньютона</a>
+    <a href="/koh.html">Снежинка Коха</a>
+    <a href="/serp.html">Треугольник Серпинского</a>
+    <h1>Биоморф</h1>
+    <canvas width="400" height="400" id="canvas"></canvas>
+    <script>
+    class Complex {
+  constructor({algebraic,trigonometric} = {}) {
+    if (algebraic) {
+      this.initAlgebraic(algebraic);
+    } else if (trigonometric) {
+      this.initTrigonometric(trigonometric)
+    } else {
+      throw new Error('Invalid arguments');
+    }
+  }
+  static fromReal(r) {
+    return Complex.fromAlgebraic(r, 0);
+  }
+  static fromAlgebraic(r, i) {
+    return new Complex({algebraic: {r,i}});
+  }
+  static fromTrigonometric(modulus, arg) {
+    return new Complex({trigonometric: {modulus,arg}});
+  }
+
+  initAlgebraic({r,i}) {
+    this.r = r;
+    this.i = i;
+    this.modulus = Math.sqrt(r * r + i * i);
+    this.arg = Math.atan2(i, r)
+  }
+  initTrigonometric({modulus,arg}) {
+    this.modulus = modulus,
+    this.arg = arg;
+    this.r = this.modulus * Math.cos(arg);
+    this.i = this.modulus * Math.sin(arg);
+  }
+  pow(exp) {
+    return Complex.fromTrigonometric(Math.pow(this.modulus, exp), exp * this.arg);
+  }
+  add(c) {
+    return Complex.fromAlgebraic(this.r + c.r, this.i + c.i);
+  }
+}
+let c = canvas.getContext('2d'), w = canvas.width, h = canvas.height 
+function formula(x,y,cx,cy, maxIter){
+  var z = Complex.fromAlgebraic(x,y);
+  var c = Complex.fromAlgebraic(cx,cy);
+  for(var i=0;i<maxIter || z.modulus<50;i++){
+    z = z.pow(4).add(c);
+    if(Math.abs(z.r) > 10 || Math.abs(z.i) > 1000) {
+    return i;
+    }
+  }
+  return 0;
+}
+canvas.onmousemove = e => {
+    var xc = w/2;
+    var yc = h/2;
+    var img = c.getImageData(0, 0, w, h)
+    for(var y = -h/2; y<h/2; y++) {
+      for(var x = -w/2; x<w/2; x++) {
+        let value = formula(x*0.01, y*0.01, e.x/399, 1+e.y/398, 70)
+        let offset = ((y+yc)*w + x+xc)*4 
+        img.data[offset]     = Math.sin(value)*255;
+        img.data[offset + 1] = Math.cos(value)*255;
+        img.data[offset + 2] = Math.random()*value*255;
+        img.data[offset + 3] = 255
+      }
+    }
+    c.putImageData(img, 0, 0) 
+}
+console.log(1);
+canvas.onmousemove({x: 111, y: 123})
+    </script>
+</body>
+</html>

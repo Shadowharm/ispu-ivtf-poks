@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input type="number" max="600" min="0" id="inputX" placeholder="Координата x">
+            <input type="number" max="600" min="0" id="inputY" placeholder="Координата y">
+            <button id="addButton">Добавить точку</button>
+            <div>
+                <label for="linearSpline">LinearSpline</label>
+                <input type="checkbox" id="linearSpline">
+            </div>
+            <div>
+                <label for="quadraticSpline">QuadraticSpline</label>
+                <input type="checkbox" id="quadraticSpline">
+            </div>
+            <div>
+                <label for="cubicSpline">CubicSpline</label>
+                <input type="checkbox" id="cubicSpline">
+
+            </div>
+        </div>
+        <div class="block">
+            <canvas id="canvas" width="600" height="600"></canvas>
+        </div>
+        <button onclick="location.reload()" style="height: max-content; ">Очистить</button>
+    </div>
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .block {
+        border: 2px solid black;
+        width: max-content;
+        height: max-content;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 200px;
+    }
+</style>
+    <script lang="js" src="./lab3.js"></script>
+    <script lang="js" src="./cubicSpline.js"></script>
+    <script lang="js" src="./quadraticSpline.js"></script>
+    <script lang="js" src="./tridiagonalSolve.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 1</title>
+</head>
+<body>
+    <h1>Графический редактор</h1>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <button id="clear" class="button">Очистить</button>
+    <button id="border" class="button">Рамка</button>
+
+    <input type="file" accept="image/*" id="file">
+
+
+    <style>
+        .container {
+            width: max-content;
+            height: max-content;
+            border: 2px solid black;
+        }
+        .button {
+            margin-top: 15px;
+            margin-right: 15px;
+            width: max-content;
+            cursor: pointer;
+            height: 30px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+
+        }
+    </style>
+    <script lang="js" defer>
+
+        const clearButton = document.getElementById('clear');
+        const borderButton = document.getElementById('border');
+        const canvas = document.getElementById('canvas');
+        const fileInput = document.getElementById('file');
+        
+        canvas.width = 600;
+        canvas.height = 300;
+
+        let ctx = canvas.getContext('2d');
+
+        const PADDING = 20
+
+        const clear = (e) => {
+            const context = canvas.getContext('2d');
+            canvas.width = 600;
+            canvas.height = 300;
+            context.clearRect(0, 0, canvas.width, canvas.height);
+        }
+        clearButton.addEventListener('click', clear);
+
+        
+        function drawBorder(){
+            ctx.strokeStyle = 'purple';
+            ctx.strokeRect(PADDING, PADDING, canvas.width - PADDING*2, canvas.height - PADDING*2);
+        }
+        borderButton.addEventListener('click', drawBorder);
+        
+
+        const mouseOver = e => {
+            ctx.lineTo(e.offsetX, e.offsetY);
+            ctx.stroke()
+        }
+
+        canvas.addEventListener('mousedown', (e) => {
+            ctx.strokeStyle = 'purple';
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+            
+            canvas.addEventListener('mousemove', mouseOver)
+
+            canvas.addEventListener('mouseout', () => {
+                canvas.removeEventListener('mousemove', mouseOver)
+            }, {once: true})
+
+            canvas.addEventListener('mouseup', () => {
+                canvas.removeEventListener('mousemove', mouseOver)
+            }, {once: true})
+        })
+
+        fileInput.addEventListener('input', e => {
+            const img = new Image();
+            var fr = new FileReader();
+            let src
+            fr.onload = function (e) {
+                src = e.target.result;
+                img.src = src;
+                console.log(src);
+                img.onload = () => {
+                    canvas.width = img.width
+                    canvas.height = img.height
+                    ctx.drawImage(img, 0, 0)
+                    
+                }
+            }
+            fr.readAsDataURL(fileInput.files[0]);
+
+        })
+    </script>
+</body>
+</html>

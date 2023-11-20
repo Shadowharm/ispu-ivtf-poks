@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/julia.html">Множество Жюлиа</a>
+    <a href="/newton.html">Бассейн Ньютона</a>
+    <a href="/biomorph.html">Биоморф</a>
+    <a href="/koh.html">Снежинка Коха</a>
+    <a href="/serp.html">Треугольник Серпинского</a>
+    <h1>Фрактал kali</h1>
+    <canvas width="600" height="175" id="canvas1"></canvas>
+    
+    <script lang="js">
+        let c = canvas1.getContext('2d'), w = canvas1.width, h = canvas1.height  
+
+let formula = (x, y, cx, cy, m) => {
+    x = (2*x-w)/w;
+    y = (2*y-h)/w;
+    for (var i=0; i<10; i++) {
+        x = Math.abs(x)
+        y = Math.abs(y)
+        m = x*x + y*y
+        x = x/m - cx/w
+        y = y/m - cy/h
+    }
+    return [x, y, Math.sqrt(x*x+y*y)/2.]
+}
+
+canvas1.onmousemove = e => {
+    var img = c.getImageData(0, 0, w, h)
+    for(var x = 0; x<w; x++) {
+        for(var y = 0; y<h; y++) {
+            let value = formula(x, y, e.x, e.y)
+            let offset = (y*w + x)*4    
+            img.data[offset]     = value[0]*255
+            img.data[offset + 1] = value[1]*255
+            img.data[offset + 2] = value[2]*255
+            img.data[offset + 3] = 255
+        }
+    }
+    c.putImageData(img, 0, 0) 
+}
+canvas1.onmousemove({x: 456, y: 123})
+    </script>
+
+</body>
+</html>
