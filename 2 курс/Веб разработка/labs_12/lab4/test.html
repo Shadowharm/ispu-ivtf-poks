@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест</title>
+    <style>
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .question {
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Тест</h2>
+      <div class="question" id="question1">
+        <p>1. Что такое обстоятельства?</p>
+        <label
+          ><input type="checkbox" name="question1" value="1" />второстепенный
+          член предложения</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question1" value="2" /> Ответ 2</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question1" value="3" /> Ответ 3</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question1" value="4" /> Ответ 4</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question1" value="5" /> Ответ 5</label
+        ><br />
+      </div>
+      <div class="question" id="question2">
+        <p>2. Что обозначает обстоятельство?</p>
+        <label
+          ><input type="checkbox" name="question2" value="1" />место, время,
+          способ действия, цель, причину и другое</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question2" value="2" /> Ответ 2</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question2" value="3" /> Ответ 3</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question2" value="4" /> Ответ 4</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question2" value="5" /> Ответ 5</label
+        ><br />
+      </div>
+      <div class="question" id="question3">
+        <p>3. На какие вопросы отвечает обстоятельство?</p>
+        <label
+          ><input type="checkbox" name="question3" value="1" /> «где?», «куда?»,
+          «когда?», «откуда?», «почему?»</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question3" value="2" />«зачем?»,
+          «как?»</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question3" value="3" /> Ответ 3</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question3" value="4" /> Ответ 4</label
+        ><br />
+        <label
+          ><input type="checkbox" name="question3" value="5" /> Ответ 5</label
+        ><br />
+      </div>
+      <button onclick="checkAnswers()">Проверить ответы</button>
+      <div id="result"></div>
+    </div>
+
+    <script>
+      const answers = [
+        { name: "question1", value: [1] },
+        { name: "question2", value: [1] },
+        { name: "question3", value: [1, 2] },
+      ];
+      function checkAnswers() {
+        let score = 0;
+        for (let answer of answers) {
+          const question = document.getElementById(answer.name);
+          const checkboxes = question.querySelectorAll(
+            'input[type="checkbox"]'
+          );
+          let correctAnswer = true;
+          checkboxes.forEach((checkbox) => {
+            if (
+              (checkbox.checked && !answer.value.includes(+checkbox.value)) ||
+              (!checkbox.checked && answer.value.includes(+checkbox.value))
+            ) {
+              correctAnswer = false;
+            }
+          });
+          if (correctAnswer) {
+            score++;
+          }
+        }
+        let result
+        if (!score) {
+          result = "Не справились";
+        } else if (score === answers.length) {
+          result = "Хорошее знание";
+        } else {
+          result = "Среднее знание";
+        }
+        alert(result);
+        location.reload()
+      }
+    </script>
+  </body>
+</html>

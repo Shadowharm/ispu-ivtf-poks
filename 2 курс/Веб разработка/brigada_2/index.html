@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="textarea">Числа</label>
+    <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea>
+    <button id="submit" onclick="onSubmit()">Рассчитать среднее геометрическое чисел</button>
+    <script lang="js">
+        const textarea = document.getElementById("textarea")
+        function onSubmit() {
+            const values = textarea.value.split("\n").map(Number)
+            alert(Math.pow(values.reduce((acc, rec) => acc * rec), 1/values.length));
+            location.reload()
+        }
+    </script>
+</body>
+</html>

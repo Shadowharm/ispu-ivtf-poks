@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Наложение текста</title>
+<style>
+   
+    .container {
+        position: relative;
+        width: 600px; 
+        margin: 50px auto; 
+        font-family: Arial, sans-serif;
+    }
+
+    .vertical-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        writing-mode: vertical-rl; 
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        padding: 20px;
+    }
+
+    
+    .transparent-text {
+        position: absolute;
+        top: 0;
+        right: 0;
+        writing-mode: horizontal-tb; 
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.5); 
+        padding: 20px;
+    }
+
+    
+    img {
+        max-width: 100%; 
+        display: block; 
+        margin: 0 auto; 
+        opacity: .5;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="vertical-text">
+        <p>Первое предложение.</p>
+        <p>Второе предложение.</p>
+        <p>Третье предложение.</p>
+    </div>
+    <div class="transparent-text">
+        <p>Текст, который находится горизонтально справа налево и наложен на вертикальный текст.</p>
+    </div>
+    <img src="https://lh3.googleusercontent.com/proxy/rz_gyaUe0JDfBZsSCzsuuCcD9vjdvDDapcx9zM6YFpvPvvnz6jY5nPFXrMJsfmzRqCY8dHyIp_Eb3aMdRArnTW1CO6aOEoJ7X6lGy5YM" alt="Изображение">
+</div>
+
+</body>
+</html>
