@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinusoidal Animation</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    #canvas {
+        display: block;
+        transform: rotate(45deg);
+    }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight
+
+    const amplitude = 100;
+    const frequency = 0.1;
+    let angle = 0;
+    const centerX = canvas.width / 2;
+    let y = canvas.height
+    const endY = 0;
+    const step = 5;
+    
+    const img = new Image();
+    img.src = 'https://upload.wikimedia.org/wikipedia/ru/d/de/Gerb_ISPU.gif'; 
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        const x = centerX + Math.sin(angle) * amplitude;
+        ctx.drawImage(img, x, y, 50, 50);
+        angle += frequency;
+        y -= step
+        if (y < endY) y = canvas.height
+        requestAnimationFrame(draw);
+    }
+
+    img.onload = function() {
+        draw();
+    };
+</script>
+</body>
+</html>
