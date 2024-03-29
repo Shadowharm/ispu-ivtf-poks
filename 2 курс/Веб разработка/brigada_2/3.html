@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body div {
+            padding: 10px 20px 10px 10px;
+            border: 1px solid #000;
+            background-color: rgba(0, 0, 255, .1);
+        }
+        body {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+    </style>
+    <div>
+        <div>
+            <div id="container1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et asperiores officiis ducimus quas quis tempore atque, ipsa, iure officia saepe libero harum consequuntur nesciunt in commodi alias eum veniam.
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="container2">
+            <img width="200" src="https://lh3.googleusercontent.com/proxy/z8mcI0qs3Cu-e2waTXmk7TjAlQTfO2PHtY6Rr9RUschAfg9Rk-mxFrDhvtzApo0U4rc09Wt6tMpQN0a9ITKFZztFoj96_7PufvwuZQ" alt="">
+        </div>
+    </div>
+    <button style="height: max-content; align-self: center;" onclick="swipe()">Поменять местами</button>
+    <script lang="js">
+        
+        function swipe () {
+            const container1 = document.getElementById('container1');
+            const container2 = document.getElementById('container2');
+
+            const innerHtml = container1.innerHTML;
+            container1.innerHTML = container2.innerHTML
+            container2.innerHTML = innerHtml
+        }
+    </script>
+</body>
+</html>
