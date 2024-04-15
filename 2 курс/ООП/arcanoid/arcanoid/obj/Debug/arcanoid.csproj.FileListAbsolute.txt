@@ -1,0 +1,11 @@
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\bin\Debug\arcanoid.exe.config
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\bin\Debug\arcanoid.exe
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\bin\Debug\arcanoid.pdb
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.csproj.AssemblyReference.cache
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.csproj.SuggestedBindingRedirects.cache
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.Properties.Resources.resources
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.csproj.GenerateResource.cache
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.csproj.CoreCompileInputs.cache
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.exe
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.pdb
+C:\Users\ПисяЕрша\Desktop\ispu-ivtf-poks\2 курс\ООП\arcanoid\arcanoid\obj\Debug\arcanoid.Form1.resources
