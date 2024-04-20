@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D Параллелепипед</title>
+    <style>
+      /* styles.css */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
+      }
+
+      #cube {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        perspective: 1000px;
+      }
+
+      .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .front {
+        transform: rotateY(0deg) translateZ(100px);
+      }
+
+      .back {
+        transform: rotateY(180deg) translateZ(100px);
+      }
+
+      .left {
+        transform: rotateY(-90deg) translateZ(100px);
+      }
+
+      .right {
+        transform: rotateY(90deg) translateZ(100px);
+      }
+
+      .top {
+        transform: rotateX(90deg) translateZ(100px);
+      }
+
+      .bottom {
+        transform: rotateX(-90deg) translateZ(100px);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cube">
+      <div class="face front"></div>
+      <div class="face back"></div>
+      <div class="face left"></div>
+      <div class="face right"></div>
+      <div class="face top"></div>
+      <div class="face bottom"></div>
+    </div>
+    <script>
+              // script.js
+      document.addEventListener('DOMContentLoaded', function() {
+          const cube = document.getElementById('cube');
+          const dialog = document.createElement('dialog');
+          dialog.innerHTML = `
+              <form method="dialog">
+                  <label for="width">Ширина (px):</label>
+                  <input type="number" id="width" value="200">
+                  <label for="height">Высота (px):</label>
+                  <input type="number" id="height" value="200">
+                  <label for="depth">Глубина (px):</label>
+                  <input type="number" id="depth" value="200">
+                  <label for="x">X (px):</label>
+                  <input type="number" id="x" value="0">
+                  <label for="y">Y (px):</label>
+                  <input type="number" id="y" value="0">
+                  <button>Применить</button>
+              </form>
+          `;
+          document.body.appendChild(dialog);
+          dialog.showModal();
+
+          dialog.querySelector('form').addEventListener('submit', function(event) {
+              event.preventDefault();
+              const width = event.target.width.value;
+              const height = event.target.height.value;
+              const depth = event.target.depth.value;
+              const x = event.target.x.value;
+              const y = event.target.y.value;
+
+              cube.style.width = `${width}px`;
+              cube.style.height = `${height}px`;
+              cube.style.transform = `translate(${x}px, ${y}px)`;
+              cube.querySelectorAll('.face').forEach(face => {
+                  face.style.transform = face.style.transform.replace(/translateZ\(\d+px\)/, `translateZ(${depth}px)`);
+              });
+
+              dialog.close();
+          });
+
+          var b; 
+          function f1(){var b="b2 "; console.log(this.b);}
+           var o3 = {b:"b3 ", f1:f1}; 
+           var o4={b:"b4 ",f1:f1};  
+           b="b1 ";
+           f1();
+            o3.f1();
+            o4.f1();
+      });
+    </script>
+  </body>
+</html>

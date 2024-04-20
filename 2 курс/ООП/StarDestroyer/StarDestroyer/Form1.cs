@@ -18,9 +18,9 @@ namespace StarDestroyer
 
         List<Bullet> bullets = new List<Bullet>();
 
-        const int enemyInterval = 30;
+        int ammo = 20;
 
-        int enemyCounter = 0;
+        int timerTick = 0;
 
         Random random = new Random();
 
@@ -59,18 +59,15 @@ namespace StarDestroyer
         private void timer_Tick(object sender, EventArgs e)
         {
 
-            enemyCounter++;
-            if (enemyCounter >= enemyInterval)
+            timerTick++;
+            if (timerTick % 50 == 0)
             {
-                enemyCounter = 0;
-
-                if (random.Next(100) % 5 == 0)
-
-                    enemies.Add(new Rocket(new Vector2(random.Next(0, Width - 30), 0)));
-
-                else
-                    enemies.Add(new Rocket(new Vector2(random.Next(0, Width - 30), 0)));
-
+                enemies.Add(new Rocket(new Vector2(random.Next(25, Width - 55), 0)));
+            }
+            if (timerTick % 10 == 0)
+            {
+                ammo++;
+                DrawAmmo();
             }
 
             for (int i = 0; i < bullets.Count; i++)
@@ -115,16 +112,20 @@ namespace StarDestroyer
             Close();
         }
 
+        private void DrawAmmo ()
+        {
+            AmmoCount.Text = "Патроны: " + ammo;
+        }
+
         private void OnKeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyData == Keys.Space)
+            if (e.KeyData == Keys.Space && ammo > 0)
             {
                 MyBullet bullet = new MyBullet(new Vector2(starShip.coords.X + starShip.size.Width / 2 - 5 / 2, starShip.coords.Y));
                 bullets.Add(bullet);
-
+                ammo--;
+                DrawAmmo();
             }
         }
-
-
     }
 }
