@@ -11,12 +11,17 @@ namespace StarDestroyer
 {
     internal class Rocket : GameObject
     {
-        public Rocket(Vector2 coords) : base(coords, new Size(50, 100))
+        public Rocket(Vector2 coords) : base(coords, new Size(Width, Height))
         {
             Sprite = Resources.rocket;
             hp = 1;
             speed = 7;
+            score = 10;
         }
+
+        public static int Width = 50;
+
+        public static int Height = 100;
 
         public override void Fly() {
             coords.Y += speed;

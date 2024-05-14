@@ -8,11 +8,17 @@ using System.Threading.Tasks;
 
 namespace StarDestroyer
 {
-    abstract class EnemyObject : GameObject
+
+    internal class EnemyBullet : Bullet
     {
-        public int speed;
-        public EnemyObject(Vector2 coords, Size size, int speed, int hp = 1) : base(coords, size) {
-            this.speed = speed;
+        public EnemyBullet(Vector2 coords) : base(coords, Color.Red)
+        {
+
+        }
+
+        public override void Fly()
+        {
+            coords.Y += speed;
         }
     }
 }

@@ -26,6 +26,8 @@ namespace StarDestroyer
 
         public Size size;
 
+        public int score;
+
         abstract public void Fly();
 
         public virtual void Draw(Graphics g)

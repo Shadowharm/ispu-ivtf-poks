@@ -17,9 +17,14 @@ namespace StarDestroyer
         private Point offset;
         private bool isDragging = false;
 
-        public StarShip(Vector2 coords) : base(coords, new Size(70, 70))
+        public static int Width = 70;
+
+        public static int Height = 70;
+
+        public StarShip(Vector2 coords) : base(coords, new Size(Width, Height))
         {
             Sprite = Resources.starship;
+            hp = 3;
         }
 
         public void MouseDown (object sender, MouseEventArgs e)
@@ -33,7 +38,7 @@ namespace StarDestroyer
 
         public void MouseMove(object sender, MouseEventArgs e)
         {
-            Form parentForm = (sender as Form);
+            MainGame parentForm = (sender as MainGame);
             if (isDragging)
             {
                 coords.X = e.X - offset.X;

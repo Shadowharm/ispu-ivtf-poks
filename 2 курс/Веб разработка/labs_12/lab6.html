@@ -1,4 +1,103 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        width: 400px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, .1);
+        position: relative;
+        perspective: 300px;
+        perspective-origin: 50% 40%;
+      }
+
+      .side {
+        position: absolute;
+        left: 140px;
+        top: 150px;
+        width: 0;
+        height: 0;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-bottom: 120px solid #ccc;
+        transform-origin: 50% 0%;
+        animation: spin 5s infinite linear;
+      }
+
+      .back {
+        animation-delay: -2.5s;
+      }
+
+      .right {
+        animation-delay: -1.25s;
+      }
+
+      .left {
+        animation-delay: -3.75s;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotateY(0deg) rotateX(30deg);
+          border-bottom-color: #18b7fc;
+        }
+        25% {
+          transform: rotateY(90deg) rotateX(30deg);
+          border-bottom-color: #03a2e6;
+          opacity: 1;
+        }
+        25.1% {
+          opacity: 0;
+        }
+        50% {
+          transform: rotateY(180deg) rotateX(30deg);
+          border-bottom-color: #058cc5;
+        }
+        74.9% {
+          opacity: 0;
+        }
+        75% {
+          transform: rotateY(270deg) rotateX(30deg);
+          border-bottom-color: #0381b8;
+          opacity: 1;
+        }
+        100% {
+          transform: rotateY(360deg) rotateX(30deg);
+          border-bottom-color: #1ab5f8;
+        }
+      }
+    </style>
+    <title>Lab 6</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="side left"></div>
+      <div class="side front"></div>
+      <div class="side right"></div>
+      <div class="side back"></div>
+    </div>
+
+    <script>
+        const sideSize = prompt('Длина стороны (60)');
+        const [x, y] = prompt('Координаты через пробел').split()
+        const container = document.querySelector('.container')
+        container.style.top = y + 'px'
+        container.style.left = x + 'px'
+        const triangleSides = document.querySelectorAll(".side");
+        if (sideSize) {
+            for (const side of triangleSides) {
+                console.log(side);
+                side.style.borderLeftWidth = sideSize + "px";
+                side.style.borderRightWidth = sideSize + "px";
+                side.style.borderBottomWidth = sideSize * 2 + "px";
+            }
+        }
+=======
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -113,6 +212,7 @@
             o3.f1();
             o4.f1();
       });
+>>>>>>> b8a26beb5acc9914b2e0295ccdee97cf298a81f7
     </script>
   </body>
 </html>

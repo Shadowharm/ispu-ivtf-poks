@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Деление полиномов</title>
+    <script>
+      function dividePolynomials() {
+        var degreeDividend = parseInt(
+          document.getElementById("degreeDividend").value
+        );
+        var degreeDivisor = parseInt(
+          document.getElementById("degreeDivisor").value
+        );
+        var coefficientsDividend = document
+          .getElementById("coefficientsDividend")
+          .value.split(" ")
+          .map(parseFloat);
+        var coefficientsDivisor = document
+          .getElementById("coefficientsDivisor")
+          .value.split(" ")
+          .map(parseFloat);
+
+        function polynomialToString(degree, coefficients) {
+          var polynomial = "";
+          for (var i = degree; i >= 0; i--) {
+            if (coefficients[i] !== 0) {
+              var term = "";
+              if (i < degree) {
+                term += coefficients[i] > 0 ? " + " : " - ";
+                term += Math.abs(coefficients[i]);
+              } else {
+                term += Math.abs(coefficients[i]);
+              }
+              if (i > 0) term += "x";
+              if (i > 1) term += "^" + i;
+              polynomial += term;
+            }
+          }
+          return polynomial;
+        }
+
+        function dividePolynomials(dividend, divisor) {
+          let quotient = [];
+          let remainder = dividend.slice();
+
+          if (divisor.length === 0) {
+            console.log("Деление на ноль невозможно.");
+            return { quotient: [], remainder: dividend };
+          }
+
+          while (remainder.length >= divisor.length) {
+            let coef = remainder[0] / divisor[0];
+
+            quotient.unshift(coef);
+
+            for (let i = 0; i < divisor.length; i++) {
+              remainder[i] -= divisor[i] * coef;
+            }
+
+            while (remainder.length > 0 && remainder[0] === 0) {
+              remainder.shift();
+            }
+          }
+
+          return { quotient, remainder };
+        }
+
+        var result = dividePolynomials(
+          coefficientsDividend,
+          coefficientsDivisor
+        );
+        var quotientString = polynomialToString(
+          result.quotient.length - 1,
+          result.quotient
+        );
+        var remainderString = polynomialToString(
+          result.remainder.length - 1,
+          result.remainder
+        );
+
+        document.getElementById("result").innerHTML =
+          "Частное: " + quotientString + "<br>Остаток: " + remainderString;
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Деление полиномов</h2>
+    <form>
+      <p>Полином-делимое:</p>
+      Степень: <input type="text" id="degreeDividend" value="2" /><br />
+      Коэффициенты:
+      <input type="text" id="coefficientsDividend" value="3 5 -6" /><br />
+      <p>Полином-делитель:</p>
+      Степень: <input type="text" id="degreeDivisor" value="1" /><br />
+      Коэффициенты:
+      <input type="text" id="coefficientsDivisor" value="2 -1" /><br />
+      <button type="button" onclick="dividePolynomials()">Вычислить</button>
+    </form>
+    <div id="result"></div>
+  </body>
+</html>

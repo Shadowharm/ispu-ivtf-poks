@@ -14,10 +14,10 @@ namespace StarDestroyer
 
         private Color color;
 
-        public Bullet(Vector2 coords, Color color) : base(coords, new Size(5, 15))
+        public Bullet(Vector2 coords, Color color) : base(coords, new Size(5, 17))
         {
             this.color = color;
-            speed = 10;
+            speed = 20;
         }
         public override void Draw(Graphics g)
         {
