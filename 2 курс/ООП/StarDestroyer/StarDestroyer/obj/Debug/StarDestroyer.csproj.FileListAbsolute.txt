@@ -33,3 +33,5 @@ C:\Users\ПисяЕрша\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDes
 C:\Users\ПисяЕрша\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Debug\StarDestroyer.pdb
 C:\Users\ПисяЕрша\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Debug\StarDestroyer.StartMenu.resources
 C:\Users\ПисяЕрша\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Debug\StarDestroyer.FinalDialog.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Debug\StarDestroyer.FinalDialog.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Debug\StarDestroyer.StartMenu.resources

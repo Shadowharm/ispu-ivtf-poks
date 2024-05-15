@@ -36,8 +36,8 @@ namespace StarDestroyer
         {
             InitializeComponent();
 
-            closeButton.Left = Width - closeButton.Width - 15;
-            closeButton.Top = 15;
+            /*closeButton.Left = Width - closeButton.Width - 15;
+            closeButton.Top = 15;*/
 
             starShip = new StarShip(new Vector2(Width / 2 - StarShip.Width / 2, Height - StarShip.Height * 2));
 
@@ -49,7 +49,7 @@ namespace StarDestroyer
 
             for (int i = 0; i < starShip.hp; i++)
             {
-                hearts.Add(new Heart(new Vector2(15 + (Heart.Width + 10) * i, Height - Heart.Height - 10)));
+                hearts.Add(new Heart(new Vector2(15 + (Heart.Width + 10) * i, Height - Heart.Height - 50)));
             }
 
         }
@@ -106,8 +106,10 @@ namespace StarDestroyer
                 DrawAmmo(); 
             }
 
+            bool firstHalf = timerTick % 2 == 0;
             for (int i = 0; i < bullets.Count; i++)
-            {
+/*                for (int i = firstHalf ? 0 : bullets.Count / 2; i < (firstHalf ? bullets.Count / 2 : bullets.Count); i++)
+*/            {
                bullets[i].Fly();
                 if (bullets[i].coords.Y < 0 || bullets[i].coords.Y > Height)
                 {
@@ -116,7 +118,8 @@ namespace StarDestroyer
             }
 
             for (int i = 0; i < enemies.Count; i++)
-            {
+/*                for (int i = firstHalf ? 0 : enemies.Count / 2; i < (firstHalf ? enemies.Count / 2 : enemies.Count); i++)
+*/            {
                 enemies[i].Fly();
 
                 if (enemies[i] is EnemyShip && timerTick % EnemyShip.FireRate == 0)
@@ -134,11 +137,16 @@ namespace StarDestroyer
             }
 
             for (int i = 0; i < bullets.Count; i++)
-            {
-                if (starShip.IsCollide(bullets[i]))
+/*                for (int i = firstHalf ? 0 : bullets.Count / 2; i < (firstHalf ? bullets.Count / 2 : bullets.Count); i++)
+*/            {
+                if (bullets[i] is EnemyBullet)
                 {
-                    bullets.RemoveAt(i);
-                    IncreaseHp();
+                    if (starShip.IsCollide(bullets[i]))
+                    {
+                        bullets.RemoveAt(i);
+                        DecreaseHp();
+                    }
+                    continue;
                 }
 
                 for (int j = 0; j < enemies.Count; j++)
@@ -156,13 +164,13 @@ namespace StarDestroyer
                     }
                 }
             }
-
             for (int i = 0; i < enemies.Count; i++)
-            {
+/*                for (int i = firstHalf ? 0 : enemies.Count / 2; i < (firstHalf ? enemies.Count / 2 : enemies.Count); i++)
+*/            {
                 if (enemies[i].IsCollide(starShip))
                 {
                     enemies.RemoveAt(i);
-                    IncreaseHp();
+                    DecreaseHp();
                 }
             }
 
@@ -175,7 +183,7 @@ namespace StarDestroyer
             Close();
         }
 
-        private void IncreaseHp ()
+        private void DecreaseHp ()
         {
             starShip.hp -= 1;
             hearts.RemoveAt(starShip.hp);
@@ -204,5 +212,15 @@ namespace StarDestroyer
             }
         }
 
+        private void OnResize(object sender, EventArgs e)
+        {
+            if (starShip != null)
+            {
+                foreach (Heart heart in hearts)
+                {
+                    heart.coords.Y = Height - Heart.Height - 50;
+                }
+            }
+        }
     }
 }
