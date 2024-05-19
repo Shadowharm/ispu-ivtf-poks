@@ -36,8 +36,6 @@ namespace StarDestroyer
         {
             InitializeComponent();
 
-            /*closeButton.Left = Width - closeButton.Width - 15;
-            closeButton.Top = 15;*/
 
             starShip = new StarShip(new Vector2(Width / 2 - StarShip.Width / 2, Height - StarShip.Height * 2));
 
@@ -51,7 +49,6 @@ namespace StarDestroyer
             {
                 hearts.Add(new Heart(new Vector2(15 + (Heart.Width + 10) * i, Height - Heart.Height - 50)));
             }
-
         }
 
         private void GameOver()
@@ -88,7 +85,7 @@ namespace StarDestroyer
 
         private void timer_Tick(object sender, EventArgs e)
         {
-
+           
             timerTick++;
             if (timerTick % 30 == 0)
             {
@@ -178,10 +175,6 @@ namespace StarDestroyer
             Refresh();
         }
 
-        private void OnClose(object sender, EventArgs e)
-        {
-            Close();
-        }
 
         private void DecreaseHp ()
         {
@@ -220,6 +213,21 @@ namespace StarDestroyer
                 {
                     heart.coords.Y = Height - Heart.Height - 50;
                 }
+            }
+        }
+
+        private void Pause_Click(object sender, EventArgs e)
+        {
+            this.ActiveControl = null;
+            if (Pause.Text == "❚❚")
+            {
+                timer.Stop();
+                Pause.Text = "▶️";
+            }
+            else 
+            {
+                timer.Start();
+                Pause.Text = "❚❚";
             }
         }
     }
