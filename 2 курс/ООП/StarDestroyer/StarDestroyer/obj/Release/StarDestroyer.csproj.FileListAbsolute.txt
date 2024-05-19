@@ -1,0 +1,13 @@
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\bin\Release\StarDestroyer.exe.config
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\bin\Release\StarDestroyer.exe
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\bin\Release\StarDestroyer.pdb
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.csproj.AssemblyReference.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.FinalDialog.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.MainGame.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.Properties.Resources.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.StartMenu.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.csproj.GenerateResource.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.exe
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\ООП\StarDestroyer\StarDestroyer\obj\Release\StarDestroyer.pdb

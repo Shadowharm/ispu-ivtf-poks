@@ -38,5 +38,11 @@ namespace StarDestroyer
             string sortedRecords = string.Join("\n", lines.OrderByDescending(x => int.Parse(x.Split(':')[1])));
             MessageBox.Show(sortedRecords);
         }
+
+        private void About_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Разработчик: студент ИГЭУ Прохоров Максим, гр. 2-41хх\n\n" +
+                "Игра \"Звездный разрушитель\" - это игра, в которой необходимо управлять космическим кораблем с помощью мыши, уворачиваться от вражеских объектов и уничтожать их с помощью пушки, нажимая на ПРОБЕЛ");
+        }
     }
 }
