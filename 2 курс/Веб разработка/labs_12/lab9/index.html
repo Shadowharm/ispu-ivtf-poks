@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Введите число</h1>
+    <input type="number" min="10" max="99999" id="input" />
+    <button onclick="onClick()">Передать на страницу 2</button>
+    <a href="page2.html">Страница 2</a>
+    <div style="margin-top: 15px">
+      <button onclick="showResult()">Вывести результат</button
+      ><span> Результат: </span><span style="word-break: break-all;" id="result"></span>
+    </div>
+    <script lang="js">
+      const input = document.getElementById("input");
+      const result = document.getElementById("result");
+      function onClick () {
+          const value = input.value;
+          if (value < 10 || value > 99999) {
+            alert("Введите натуральное число порядка не более 5 цифр и не менее двух");
+            return;
+          }
+
+          localStorage.setItem('value', JSON.stringify(value))
+      }
+
+      function showResult() {
+        const data = localStorage.getItem('result');
+        if (!data) {
+            alert("Сделайте рассчеты на 2 странице!")
+            return
+        }
+        result.innerText = JSON.parse(data)
+      }
+    </script>
+  </body>
+</html>

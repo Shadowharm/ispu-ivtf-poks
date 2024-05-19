@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 8</title>
+    <script type="text/javascript">
+        const resultData = {
+            countPredl: 0,
+            countTypes: 0,
+            countOperat: 0,
+            countOperln: 0,
+            countOperOut: 0
+        }
+        function result(){
+            const file = document.getElementById('file').files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.readAsText(file);
+            reader.onload = function(){
+                calculate(reader.result);
+            }
+        }
+
+        function calculate(text){
+            const data = text.split('\\n');
+            console.log(data);
+            resultData.countPredl = data.length
+            data.map(line => {
+                const [key, value] = line.split('::=')
+                if (/Простой тип переменной/i.test(key)) {
+                    resultData.countTypes = value.split('|').length
+                } else if (/Оператор/i.test(key)) {
+                    resultData.countOperat += value.split('|').length
+                }
+                if (/Оператор ввода/i.test(key)) {
+                    resultData.countOperln = value.split('|').length
+                }
+                if (/Оператор вывода/i.test(key)) {
+                    resultData.countOperOut = value.split('|').length
+                }
+            })
+            const outResult = text + '<br><br>' + `Количество предложений: ${resultData.countPredl}<br>
+            Количество типов: ${resultData.countTypes}<br>
+            Количество операторов: ${resultData.countOperat}<br>
+            Количество операторов ввода: ${resultData.countOperln}<br>
+            Количество операторов вывода: ${resultData.countOperOut}
+            `
+
+            document.getElementById('text').innerHTML = outResult
+        }
+    </script>
+</head>
+<body>
+    <input type="file" id="file">
+    <br>
+    <input type="button" value="Подсчет" onclick="result()">
+    <div id="text"></div>
+    <a href="index.html">Вернуться на 1 страницу</a>
+</body>
+</html>

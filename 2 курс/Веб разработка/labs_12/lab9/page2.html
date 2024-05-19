@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>2 страница</h1>
+    <button onclick="calculate()">Сделать перестановки</button>
+    <a href="index.html">Страница 1</a>
+    <script lang="js">
+      function calculate() {
+          const data = JSON.parse(localStorage.getItem('value'));
+          if (!data) {
+            alert('Отсутствуют данные')
+            return
+          }
+
+          const digits = data.toString().split('');
+          const result = new Set();
+
+					function permute(arr, m = []) {
+							if (arr.length === 0) {
+									result.add(parseInt(m.join(''), 10));
+							} else {
+									for (let i = 0; i < arr.length; i++) {
+											let curr = arr.slice();
+											let next = curr.splice(i, 1);
+											permute(curr.slice(), m.concat(next));
+									}
+							}
+					}
+
+
+            permute(digits);
+
+            localStorage.setItem('result', JSON.stringify(Array.from(result)));
+      }
+    </script>
+  </body>
+</html>
