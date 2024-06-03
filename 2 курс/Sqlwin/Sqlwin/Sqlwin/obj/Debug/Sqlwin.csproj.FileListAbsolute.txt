@@ -1,0 +1,87 @@
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Sqlwin.exe.config
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Sqlwin.exe
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Sqlwin.pdb
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.AssemblyReference.cache
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.Properties.Resources.resources
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.GenerateResource.cache
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.CoreCompileInputs.cache
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.exe
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.pdb
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Npgsql.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Buffers.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Memory.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Text.Json.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Threading.Channels.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.ValueTuple.dll
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\Npgsql.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Buffers.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Memory.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Text.Json.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Threading.Channels.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\bin\Debug\System.ValueTuple.xml
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.CopyComplete
+C:\Users\Shyam\Desktop\ISPU\bd\Sqlwin\Sqlwin\obj\Debug\Sqlwin.Form1.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Sqlwin.exe.config
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Sqlwin.exe
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Sqlwin.pdb
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Npgsql.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Buffers.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Memory.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Text.Json.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Threading.Channels.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.ValueTuple.dll
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\Npgsql.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Buffers.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Memory.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Text.Json.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Threading.Channels.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\bin\Debug\System.ValueTuple.xml
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.AssemblyReference.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.Form1.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.Properties.Resources.resources
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.GenerateResource.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.csproj.CopyComplete
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.exe
+C:\Users\Максим\Desktop\ispu-ivtf-poks\2 курс\Sqlwin\Sqlwin\Sqlwin\obj\Debug\Sqlwin.pdb

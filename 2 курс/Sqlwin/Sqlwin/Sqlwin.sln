@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sqlwin", "Sqlwin\Sqlwin.csproj", "{C73AF6C9-AB7F-453B-A30C-95AC611A2FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73AF6C9-AB7F-453B-A30C-95AC611A2FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73AF6C9-AB7F-453B-A30C-95AC611A2FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73AF6C9-AB7F-453B-A30C-95AC611A2FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73AF6C9-AB7F-453B-A30C-95AC611A2FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B4DA341-DDCC-46B5-A9FC-AD275CD6D927}
+	EndGlobalSection
+EndGlobal

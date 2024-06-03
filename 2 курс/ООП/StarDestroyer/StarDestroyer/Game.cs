@@ -26,6 +26,8 @@ namespace StarDestroyer
 
         int timerTick = 0;
 
+        Size initialSize;
+
         Random random = new Random();
 
         List<GameObject> enemies = new List<GameObject>();
@@ -36,7 +38,7 @@ namespace StarDestroyer
         {
             InitializeComponent();
 
-
+            initialSize = new Size(Width, Height);
             starShip = new StarShip(new Vector2(Width / 2 - StarShip.Width / 2, Height - StarShip.Height * 2));
 
             this.MouseDown += starShip.MouseDown;
@@ -207,6 +209,19 @@ namespace StarDestroyer
 
         private void OnResize(object sender, EventArgs e)
         {
+            starShip.coords = new Vector2(starShip.coords.X * Width / initialSize.Width, starShip.coords.Y * Height / initialSize.Height);
+            foreach (GameObject enemy in enemies)
+            {
+                enemy.coords = new Vector2(enemy.coords.X * Width / initialSize.Width, enemy.coords.Y * Height / initialSize.Height);
+            }
+
+            foreach (Bullet bullet in bullets)
+            {
+                bullet.coords = new Vector2(bullet.coords.X * Width / initialSize.Width, bullet.coords.Y * Height / initialSize.Height);
+            }
+
+
+            initialSize = new Size(Width, Height);
             if (starShip != null)
             {
                 foreach (Heart heart in hearts)

@@ -24,7 +24,7 @@ namespace StarDestroyer
         public StarShip(Vector2 coords) : base(coords, new Size(Width, Height))
         {
             Sprite = Resources.starship;
-            hp = 3;
+            hp = 10;
         }
 
         public void MouseDown (object sender, MouseEventArgs e)
