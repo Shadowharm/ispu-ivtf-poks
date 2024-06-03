@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>JavaScript</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="JavaScript" />
+    <meta name="keywords" content="язык программирования, веб-разработка" />
+    <meta name="author" content="Прохоров Максим" />
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+    <!-- <link rel="stylesheet" href="./css/lab4.css" /> -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>JavaScript</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Лаб. 1</a></li>
+        <li><a href="lab2.html">Лаб. 2</a></li>
+        <li><a href="#">Лаб. 3</a></li>
+        <li><a href="lab4.html">Лаб. 4</a></li>
+        <li><a href="lab5.html">Лаб. 5</a></li>
+        <li><a href="lab6.html">Лаб. 6</a></li>
+        <li><a href="lab7.html">Лаб. 7</a></li>
+        <li><a href="lab8.html">Лаб. 8</a></li>
+        <li><a href="#">Лаб. 9</a></li>
+        <li><a href="lab10.html">Лаб. 10</a></li>
+      </ul>
+    </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+      <article>
+        <div>
+          <h2>Добавление элементов в список</h2>
+          <ol id="item-list">
+            <li>Элемент 1</li>
+            <li>Элемент 2</li>
+          </ol>
+          <input type="text" id="textInput" placeholder="Введите текст" />
+          <button id="addButton">Добавить</button>
+          <br />
+          <input
+            type="radio"
+            id="addToStart"
+            name="addPosition"
+            value="start"
+            checked
+          />
+          <label for="addToStart">В начало</label>
+          <input type="radio" id="addToEnd" name="addPosition" value="end" />
+          <label for="addToEnd">В конец</label>
+        </div>
+
+        <!-- 3. Клонирование элементов -->
+        <div>
+          <h2>Клонирование параграфов</h2>
+          <div id="cloneDiv">
+              <p id="paragraph">Это параграф для клонирования.</p>
+          </div>
+          <button id="cloneButton">Клонировать параграф</button>
+        </div>
+
+        <!-- 4. Работа со стилями и удаление -->
+        <div class="image-container">
+          <h2>Изображение и работа со стилями</h2>
+          <img
+            id="image"
+            src="./img/image.png"
+            alt="Placeholder Image"
+          />
+          <br />
+          <button id="shrinkButton">Уменьшить изображение</button>
+          <button id="deleteButton">Удалить изображение</button>
+        </div>
+
+        <!-- 5. Анимация -->
+        <div>
+          <h2>Анимация</h2>
+          <div
+            id="animateBox"
+            style="width: 100px; height: 100px; background-color: blue"
+          ></div>
+          <button id="animateButton">Запустить анимацию</button>
+        </div>
+
+        <!-- 6. Фильтрация -->
+        <div>
+          <h2>Фильтрация таблицы</h2>
+          <input
+            type="text"
+            id="filterInput"
+            placeholder="Введите для фильтрации"
+          />
+          <select id="columnSelect">
+            <option value="0">Имя</option>
+            <option value="1">Возраст</option>
+        </select>
+          <table id="infoTable" border="1">
+            <thead>
+              <tr>
+                <th>Имя</th>
+                <th>Возраст</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Алиса</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Боб</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>Чарли</td>
+                <td>35</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </main>
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>Copyright &copy; 2024. Прохоров Максим</p>
+    </footer>
+    <script src="./js/lab9.js"></script>
+  </body>
+</html>

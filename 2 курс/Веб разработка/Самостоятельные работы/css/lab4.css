@@ -1,0 +1,76 @@
+article {
+    background-color: bisque;
+}
+
+article > h2:first-child {
+    border: 1px solid black;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+article > p:last-of-type {
+    width: 212px;
+    height: 100px;
+    overflow-y: scroll;
+    background-color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    object-fit: cover;
+    border: 2px dashed black;
+    opacity: .5;
+}
+ol {
+    counter-reset: list-counter;
+    list-style: none;
+}
+
+ol > li {
+    counter-increment: list-counter;
+    margin-bottom: 5px; 
+}
+
+ol > li::before {
+    content: counter(list-counter) '. ';
+    margin-right: 5px; 
+}
+
+ol > li:last-child::before {
+    content: "12. "; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li {
+    display: inline; 
+    margin-right: 10px; 
+    font-weight: bold; 
+}
+
+table th {
+    background-color: gray;
+}
+
+table tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+article a:visited {
+    color:blueviolet;
+}
