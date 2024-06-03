@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <title>JavaScript</title>
@@ -8,6 +8,7 @@
     <meta name="author" content="Прохоров Максим" />
     <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/lab4.css" />
   </head>
 
   <body>
@@ -17,10 +18,10 @@
 
     <nav>
       <ul>
-        <li><a href="#">Лаб. 1</a></li>
+        <li><a href="index.html">Лаб. 1</a></li>
         <li><a href="lab2.html">Лаб. 2</a></li>
         <li><a href="#">Лаб. 3</a></li>
-        <li><a href="lab4.html">Лаб. 4</a></li>
+        <li><a href="#">Лаб. 4</a></li>
         <li><a href="lab5.html">Лаб. 5</a></li>
         <li><a href="lab6.html">Лаб. 6</a></li>
         <li><a href="lab7.html">Лаб. 7</a></li>
@@ -35,32 +36,26 @@
       <!-- It contains an article -->
       <article>
         <h2>JavaScript</h2>
-        <blockquote>
+        <div class="flex-container">
+            <blockquote>
           <strong>JavaScript</strong> — это полноценный динамический язык
           программирования, который применяется к HTML документу, и может
           обеспечить динамическую интерактивность на веб-сайтах
         </blockquote>
-        <p>Что может JavaScript в браузере?</p>
-        <ul>
-          <li>
-            <i>Добавлять</i> новый HTML-код на страницу,
-            <i>изменять</i> существующее содержимое,
-            <i>модифицировать</i> стили.
-          </li>
-          <li>
-            Реагировать на действия пользователя, щелчки мыши, перемещения
-            указателя, нажатия клавиш.
-          </li>
-          <li>
-            Отправлять сетевые запросы на удалённые сервера, скачивать и
-            загружать файлы (технологии AJAX и COMET).
-          </li>
-          <li>
-            Получать и устанавливать куки, задавать вопросы посетителю,
-            показывать сообщения.
-          </li>
-          <li>Запоминать данные на стороне клиента («local storage»).</li>
-        </ul>
+        <img
+          src="./img/image.png"
+          alt="Модификаторы: shift, alt, ctrl и meta"
+          style="
+            width: 100%;
+            max-width: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+          "
+        />
+        </div>
         <h3>Языки «над» JavaScript</h3>
         <ol>
           <li>
@@ -78,6 +73,26 @@
           <li>
             <a href="https://flow.org/">Flow</a> тоже добавляет типизацию, но
             иначе. Разработан Facebook.
+            <ul>
+                <li>
+                  <i>Добавлять</i> новый HTML-код на страницу,
+                  <i>изменять</i> существующее содержимое,
+                  <i>модифицировать</i> стили.
+                </li>
+                <li>
+                  Реагировать на действия пользователя, щелчки мыши, перемещения
+                  указателя, нажатия клавиш.
+                </li>
+                <li>
+                  Отправлять сетевые запросы на удалённые сервера, скачивать и
+                  загружать файлы (технологии AJAX и COMET).
+                </li>
+                <li>
+                  Получать и устанавливать куки, задавать вопросы посетителю,
+                  показывать сообщения.
+                </li>
+                <li>Запоминать данные на стороне клиента («local storage»).</li>
+              </ul>
           </li>
           <li>
             <a href="https://www.dartlang.org/">Dart</a> стоит особняком, потому
@@ -92,6 +107,31 @@
             JavaScript.
           </li>
         </ol>
+        
+        <p>Добавлять новый HTML-код на страницу, изменять существующее содержимое, модифицировать стили. Реагировать на действия пользователя, щелчки мыши, перемещения указателя, нажатия клавиш. Отправлять сетевые запросы на удалённые сервера, скачивать и загружать файлы (технологии AJAX и COMET). Получать и устанавливать куки, задавать вопросы посетителю, показывать сообщения. Запоминать данные на стороне клиента («local storage»).</p>
+        
+        <table border="1">
+            <tr>
+              <th>Method</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>getElementById()</td>
+              <td>Returns the element that has the specified ID.</td>
+            </tr>
+            <tr>
+              <td>addEventListener()</td>
+              <td>Attaches an event handler to the specified element.</td>
+            </tr>
+            <tr>
+              <td>querySelector()</td>
+              <td>Returns the first element that matches a specified CSS selector(s) in the document.</td>
+            </tr>
+            <tr>
+              <td>fetch()</td>
+              <td>Fetches resources using the Fetch API.</td>
+            </tr>
+          </table>
         <a href="https://learn.javascript.ru/intro"
           >По информации с learn.javascript</a
         >
