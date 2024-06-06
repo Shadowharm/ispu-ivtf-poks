@@ -13,12 +13,12 @@ namespace StarDestroyer
     {
 
 
-        public static int Width = 30;
+        public static int Width = 30; // ширина
 
-        public static int Height = 30;
+        public static int Height = 30; // высота
         public Heart(Vector2 coords) : base(coords, new Size(Width, Height))
         {
-            Sprite = Resources.heart;
+            Sprite = Resources.heart; // установка спрайта
         }
 
         public override void Fly() { }

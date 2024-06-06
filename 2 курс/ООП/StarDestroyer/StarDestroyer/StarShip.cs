@@ -13,18 +13,18 @@ namespace StarDestroyer
 {
     class StarShip : GameObject
     {
-
+        // вспомогательные поля для отслеживания перемещения мышкой
         private Point offset;
         private bool isDragging = false;
 
-        public static int Width = 70;
+        public static int Width = 70; // ширина
 
-        public static int Height = 70;
+        public static int Height = 70; // высота
 
         public StarShip(Vector2 coords) : base(coords, new Size(Width, Height))
         {
-            Sprite = Resources.starship;
-            hp = 10;
+            Sprite = Resources.starship; // установка спрайта
+            hp = 3; // установка очков зхдоровья
         }
 
         public void MouseDown (object sender, MouseEventArgs e)
@@ -34,7 +34,7 @@ namespace StarDestroyer
                 offset = new Point(e.X - (int) coords.X, e.Y - (int) coords.Y);
                 isDragging = true;
             }
-        }
+        } // событие нажатия кнопки мыши
 
         public void MouseMove(object sender, MouseEventArgs e)
         {
@@ -48,11 +48,11 @@ namespace StarDestroyer
                 if (e.X - offset.X + size.Width > parentForm.Width) coords.X = parentForm.Width - size.Width;
                 if (e.Y - offset.Y + size.Height > parentForm.Height) coords.Y = parentForm.Height - size.Height;
             }
-        }
+        } // событие перемещения мышью
         public void MouseUp(object sender, MouseEventArgs e)
         {
             isDragging = false;
-        }
+        } // событие отпускания кнопки мыши
 
         public override void Fly() { }
 

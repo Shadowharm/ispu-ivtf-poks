@@ -96,6 +96,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainGame";
             this.Text = "StarDestroyer";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainGame_FormClosed);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.OnPaint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OnKeyDown);
             this.Resize += new System.EventHandler(this.OnResize);

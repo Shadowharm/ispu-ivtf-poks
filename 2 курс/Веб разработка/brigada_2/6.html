@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body div {
+            padding: 10px 20px 10px 10px;
+            border: 1px solid #000;
+            background-color: rgba(0, 0, 255, .1);
+        }
+        body {
+            display: flex;
+            flex-direction: row;
+            gap: 100px;
+        }
+    </style>
+    <div>
+        <div>
+            <div id="container1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et asperiores officiis ducimus quas quis tempore atque, ipsa, iure officia saepe libero harum consequuntur nesciunt in commodi alias eum veniam.
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="container2">
+            <img id="img" width="200" src="http://ispu.ru/sites/all/themes/ispu/logo.png" alt="">
+        </div>
+    </div>
+    <span>
+
+      <button style="height: max-content; align-self: center;" onclick="swipe()">Поменять местами</button>
+      <button style="height: max-content; align-self: center; margin-top: 15px" onclick="getInfo()">Информация</button>
+    </span>
+    <script lang="js">
+        
+        function swipe () {
+            const container1 = document.getElementById('container1');
+            const container2 = document.getElementById('container2');
+
+            const innerHtml = container1.innerHTML;
+            container1.innerHTML = container2.innerHTML
+            container2.innerHTML = innerHtml
+        }
+
+        function getInfo () {
+          const firstDivType = document.getElementById("container1").nodeName;
+          console.log("nodeName элемента первого div:", firstDivType);
+
+          const imgWidth = document.getElementById("img").width;
+          console.log("Ширина (width) изображения:", imgWidth);
+
+          const secondDivChildCount =
+            document.getElementById("container2").childElementCount;
+          console.log(
+            "Количество вложенных элементов (childElementCount) второго div:",
+            secondDivChildCount
+          );
+
+          const imgSrc = document.getElementById("img").src;
+          console.log("Источник изображения (src):", imgSrc);
+
+          const divCount = document.getElementsByTagName("div").length;
+          console.log("Общее количество div элементов на странице:", divCount);
+        };
+
+    </script>
+</body>
+</html>
+
+

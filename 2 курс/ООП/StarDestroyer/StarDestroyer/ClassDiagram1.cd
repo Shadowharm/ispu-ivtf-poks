@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StarDestroyer.StarShip">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAABAAAAEAAAAAAAEAAAAAAEAAAAAARAACAAAA=</HashCode>
+      <FileName>StarShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.Rocket">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.MyBullet">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MyBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.GameObject">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAIAIAAAAAABAAQAQAABBAAEAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.Heart">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Heart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.EnemyShip">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAIAACAAAAAEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.EnemyBullet">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>EnemyBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarDestroyer.Bullet">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

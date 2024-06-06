@@ -13,17 +13,17 @@ namespace StarDestroyer
     {
         public Rocket(Vector2 coords) : base(coords, new Size(Width, Height))
         {
-            Sprite = Resources.rocket;
-            hp = 1;
-            speed = 7;
-            score = 10;
+            Sprite = Resources.rocket; // установка спрайта
+            hp = 1; // установка очков здоровья
+            speed = 7; // установка скорости
+            score = 10; // установка очков за уничтожение
         }
 
-        public static int Width = 50;
+        public static int Width = 50; // ширина
 
-        public static int Height = 100;
+        public static int Height = 100; // высота
 
-        public override void Fly() {
+        public override void Fly() { // метод полета ракеты
             coords.Y += speed;
         }
     }

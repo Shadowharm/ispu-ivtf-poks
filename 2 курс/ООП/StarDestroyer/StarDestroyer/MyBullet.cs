@@ -10,12 +10,9 @@ namespace StarDestroyer
 {
     internal class MyBullet : Bullet
     {
-        public MyBullet(Vector2 coords) : base(coords, Color.Green)
-        {
+        public MyBullet(Vector2 coords) : base(coords, Color.Green) { } // установка цвета пули
 
-        }
-
-        public override void Fly()
+        public override void Fly() // метод полета своей пули
         {
             coords.Y -= speed;
         }
