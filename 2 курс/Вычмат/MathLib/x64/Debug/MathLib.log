@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MathLib.cpp
+C:\Users\Максим\Desktop\C+C++\MathLib\MathLib.cpp(248,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Максим\Desktop\C+C++\MathLib\MathLib.cpp(293,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+     Создается библиотека C:\Users\Максим\Desktop\C+C++\MathLib\x64\Debug\MathLib.lib и объект C:\Users\Максим\Desktop\C+C++\MathLib\x64\Debug\MathLib.exp
+  MathLib.vcxproj -> C:\Users\Максим\Desktop\C+C++\MathLib\x64\Debug\MathLib.dll

@@ -56,5 +56,12 @@
       <FileName>Bullet.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="StarDestroyer.MainGame">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASkgAABAKAAAAABUACIAAAChQKAQABBAAQAIAAgAAM=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

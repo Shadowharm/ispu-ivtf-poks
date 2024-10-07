@@ -72,7 +72,6 @@ namespace Sqlwin
 
         private void toolStripTextBox1_Click(object sender, EventArgs e)
         {
-            //-- поиск самой популярной библиотекиs
             string sqlQuery = @"SELECT 
     t.name AS teacher_name,
     s.name AS subject_name,
@@ -100,7 +99,6 @@ JOIN
 
         private void toolStripTextBox2_Click_1(object sender, EventArgs e)
         {
-            // -- сколько книг каждого издательства есть в каждой библиотеке
             string sqlQuery = @"SELECT 
     f.id AS faculty_id,
     f.name AS faculty_name,
