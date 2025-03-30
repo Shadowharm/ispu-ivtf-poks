@@ -4,5 +4,5 @@
 
 #ifndef ASD_DFS_H
 #define ASD_DFS_H
-
+void DFS();
 #endif //ASD_DFS_H

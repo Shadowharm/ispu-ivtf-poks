@@ -5,4 +5,5 @@
 #ifndef ASD_BFS_H
 #define ASD_BFS_H
 
+void BFS();
 #endif //ASD_BFS_H

@@ -4,5 +4,5 @@
 
 #ifndef ASD_LAB2_H
 #define ASD_LAB2_H
-
+void lab2();
 #endif //ASD_LAB2_H

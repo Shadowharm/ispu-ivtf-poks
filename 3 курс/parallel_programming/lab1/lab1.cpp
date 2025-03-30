@@ -10,7 +10,7 @@ using namespace std;
 int lab1 (int size, int rank) {
     FILE* f;
     char name[20];
-    sprintf(name, "rank_%d.dat", rank);
+    sprintf(name, "rank_%d.txt", rank);
 
     if ((f = fopen(name, "w")) == nullptr) {
         fprintf(stderr, "File error\n");
@@ -21,6 +21,5 @@ int lab1 (int size, int rank) {
     fprintf(f, "size=%d rank=%d\n", size, rank);
     fclose(f);
 
-    MPI_Finalize();
     return 0;
 }

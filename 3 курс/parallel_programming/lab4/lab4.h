@@ -4,5 +4,6 @@
 
 #ifndef LAB4_H
 #define LAB4_H
+void lab4(int rank, int size, int root);
 
 #endif //LAB4_H

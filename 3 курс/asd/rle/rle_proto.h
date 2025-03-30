@@ -4,5 +4,5 @@
 
 #ifndef ASD_RLE_PROTO_H
 #define ASD_RLE_PROTO_H
-
+void rle_proto();
 #endif //ASD_RLE_PROTO_H

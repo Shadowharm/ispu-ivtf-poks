@@ -5,7 +5,7 @@
 #ifndef LAB3_H
 #define LAB3_H
 
-void FirstMethod(int rank, int size);
-void SecondMethod(int rank, int size);
+void useRecv(int rank, int size);
+void useBcast(int rank, int size);
 
 #endif //LAB3_H

@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_C_COMPILER=/opt/homebrew/Cellar/gcc@13/13.3.0/bin/gcc-13 -DCMAKE_CXX_COMPILER=/opt/homebrew/Cellar/gcc@13/13.3.0/bin/g++-13 -G Ninja -S "/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/asd" -B "/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/asd/cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/asd/cmake-build-debug

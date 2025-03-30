@@ -7,6 +7,8 @@
 #include <mpi.h>
 #include <stdio.h>
 
+// TODO MPI_Barrier(MPI_COMM_WORLD);
+
 int lab2(int size, int rank) {
     if (rank == 0) {
         FILE* file = fopen("output.txt", "w");
@@ -32,6 +34,5 @@ int lab2(int size, int rank) {
         MPI_Barrier(MPI_COMM_WORLD);
     }
 
-    MPI_Finalize();
     return 0;
 }

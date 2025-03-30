@@ -3,6 +3,14 @@
 #include "lab1/lab1.h"
 #include "lab2/lab2.h"
 #include "lab3/lab3.h"
+#include "lab4/lab4.h"
+#include "lab5/lab5.h"
+#include "task1/task1.h"
+#include "task2/task2.h"
+#include "lab7/lab7.h"
+#include "lab8/lab8.h"
+#include "lab9/lab9.h"
+#include "lab10/lab10.h"
 
 using namespace std;
 
@@ -21,10 +29,11 @@ int main(int argc, char** argv) {
         return 3;
     }
 
-    MPI_Barrier(MPI_COMM_WORLD);
+     MPI_Barrier(MPI_COMM_WORLD);
 
-    FirstMethod(rank, size);
-    SecondMethod(rank, size);
-    MPI_Finalize();
+
+    lab10(rank, size);
+
+    // MPI_Finalize();
     return 0;
 }

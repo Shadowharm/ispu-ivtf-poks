@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d74a68f2b772b84531c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alarm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alarm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alarm-Debug-8001528c17cdf6383952.json",
+					"name" : "alarm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alarm_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alarm_autogen-Debug-e30cde4c931ca4c1cf6d.json",
+					"name" : "alarm_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alarm_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alarm_autogen_timestamp_deps-Debug-bb69930bebce937e0633.json",
+					"name" : "alarm_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/maksim.prokhorov/ispu-ivtf-poks/3 \u043a\u0443\u0440\u0441/qt/alarm/build/Qt_6_8_2_for_macOS-Debug",
+		"source" : "/Users/maksim.prokhorov/ispu-ivtf-poks/3 \u043a\u0443\u0440\u0441/qt/alarm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

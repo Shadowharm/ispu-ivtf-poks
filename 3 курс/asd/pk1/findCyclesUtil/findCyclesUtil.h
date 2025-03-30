@@ -4,5 +4,5 @@
 
 #ifndef ASD_FINDCYCLESUTIL_H
 #define ASD_FINDCYCLESUTIL_H
-
+void findCycles();
 #endif //ASD_FINDCYCLESUTIL_H

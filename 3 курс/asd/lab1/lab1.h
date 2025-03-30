@@ -5,4 +5,7 @@
 #ifndef ASD_LAB1_H
 #define ASD_LAB1_H
 
+
+void lab1 ();
+
 #endif //ASD_LAB1_H
