@@ -1,0 +1,29 @@
+# ninja log v6
+3	45	1740740802605664604	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	5cb5740cc3bc087a
+38	293	1740741493616902906	build.ninja	677722ce92e5864d
+56	98	1740740802659127281	calculator_autogen/timestamp	7b7e8edb3d4eec13
+56	98	1740740802659127281	calculator_autogen/mocs_compilation.cpp	7b7e8edb3d4eec13
+688	1628	1740411087376748372	CMakeFiles/calculator.dir/mainwindow.cpp.o	e0e40abd5f38285f
+103	1125	1740736314941217374	CMakeFiles/calculator.dir/calculator.cpp.o	9774ec2e0d080806
+501	1542	1740735105202395654	CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o	bb185c7ff43a7298
+501	1554	1740735105202603399	CMakeFiles/calculator.dir/main.cpp.o	463ba79e88ca4784
+56	98	1740740802659127281	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/calculator_autogen/mocs_compilation.cpp	7b7e8edb3d4eec13
+1125	1361	1740736315962915291	calculator.app/Contents/MacOS/calculator	7c53d0f4bda60260
+56	98	1740740802659127281	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/calculator_autogen/timestamp	7b7e8edb3d4eec13
+96	320	1740740763534310591	calculator	780b4acf41ec32f6
+4	39	1740741740639649562	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	5cb5740cc3bc087a
+42	86	1740741740677593754	calculator_autogen/timestamp	7b7e8edb3d4eec13
+42	86	1740741740677593754	calculator_autogen/mocs_compilation.cpp	7b7e8edb3d4eec13
+42	86	1740741740677593754	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/calculator_autogen/timestamp	7b7e8edb3d4eec13
+42	86	1740741740677593754	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/calculator_autogen/mocs_compilation.cpp	7b7e8edb3d4eec13
+87	1158	1740741740721681690	CMakeFiles/calculator.dir/calculator.cpp.o	9774ec2e0d080806
+1158	1364	1740741741792864295	calculator.app/Contents/MacOS/calculator	7c53d0f4bda60260
+4	40	1740741890340717830	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	5cb5740cc3bc087a
+4	40	1741079787814529580	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/CMakeFiles/cmake.verify_globs	5cb5740cc3bc087a
+44	86	1741079787854576169	calculator_autogen/timestamp	7b7e8edb3d4eec13
+44	86	1741079787854576169	calculator_autogen/mocs_compilation.cpp	7b7e8edb3d4eec13
+44	86	1741079787854576169	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/calculator_autogen/timestamp	7b7e8edb3d4eec13
+44	86	1741079787854576169	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/calculator/calculator/build/Qt_6_8_2_for_macOS-Debug/calculator_autogen/mocs_compilation.cpp	7b7e8edb3d4eec13
+86	1266	1741079787897069278	CMakeFiles/calculator.dir/main.cpp.o	463ba79e88ca4784
+86	1270	1741079787897254565	CMakeFiles/calculator.dir/calculator.cpp.o	9774ec2e0d080806
+1270	1525	1741079789080953438	calculator.app/Contents/MacOS/calculator	7c53d0f4bda60260

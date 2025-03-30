@@ -1,0 +1,3 @@
+/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/parallel_programming/cmake-build-debug/CMakeFiles/parallel_programming.dir
+/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/parallel_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/parallel_programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

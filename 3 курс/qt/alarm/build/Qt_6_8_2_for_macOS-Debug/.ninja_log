@@ -1,0 +1,47 @@
+# ninja log v6
+2	511	1740742920757212315	alarm_autogen/timestamp	ad88b2bad2b51a29
+2	511	1740742920757212315	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+2	511	1740742920757212315	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+2	511	1740742920757212315	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+514	1424	1740742920774167218	CMakeFiles/alarm.dir/alarm.cpp.o	265659d302124375
+514	1426	1740742920773799806	CMakeFiles/alarm.dir/alarm_autogen/mocs_compilation.cpp.o	ef6b9725c521df4c
+7	54	1740742930186692741	alarm_autogen/timestamp	ad88b2bad2b51a29
+7	54	1740742930186692741	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+7	54	1740742930186692741	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+7	54	1740742930186692741	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+55	824	1740742930234413031	CMakeFiles/alarm.dir/main.cpp.o	196ae22246d78684
+824	1030	1740742931003810272	alarm.app/Contents/MacOS/alarm	b939aeb109f3028a
+14	689	1741950708775256000	alarm_autogen/timestamp	ad88b2bad2b51a29
+14	689	1741950708775256000	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+14	689	1741950708775256000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+14	689	1741950708775256000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+690	2169	1741950708798860938	CMakeFiles/alarm.dir/main.cpp.o	196ae22246d78684
+690	2171	1741950708798538287	CMakeFiles/alarm.dir/alarm_autogen/mocs_compilation.cpp.o	ef6b9725c521df4c
+690	2179	1741950708799045971	CMakeFiles/alarm.dir/alarm.cpp.o	265659d302124375
+2179	2621	1741950710287951644	alarm.app/Contents/MacOS/alarm	b939aeb109f3028a
+9	84	1741951361436353920	alarm_autogen/timestamp	ad88b2bad2b51a29
+9	84	1741951361436353920	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+9	84	1741951361436353920	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+9	84	1741951361436353920	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+84	1848	1741951361511648842	CMakeFiles/alarm.dir/alarm.cpp.o	265659d302124375
+1848	2189	1741951363275164106	alarm.app/Contents/MacOS/alarm	b939aeb109f3028a
+10	83	1741951447910854074	alarm_autogen/timestamp	ad88b2bad2b51a29
+10	83	1741951447910854074	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+10	83	1741951447910854074	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+10	83	1741951447910854074	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+84	1509	1741951447984890973	CMakeFiles/alarm.dir/alarm.cpp.o	265659d302124375
+1509	1773	1741951449410596143	alarm.app/Contents/MacOS/alarm	b939aeb109f3028a
+10	85	1741951485504337006	alarm_autogen/timestamp	ad88b2bad2b51a29
+10	85	1741951485504337006	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+10	85	1741951485504337006	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+10	85	1741951485504337006	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+85	1568	1741951485579771838	CMakeFiles/alarm.dir/alarm.cpp.o	265659d302124375
+1568	1831	1741951487062493892	alarm.app/Contents/MacOS/alarm	b939aeb109f3028a
+10	610	1741951699738505000	alarm_autogen/timestamp	ad88b2bad2b51a29
+10	610	1741951699738505000	alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+10	610	1741951699738505000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/timestamp	ad88b2bad2b51a29
+10	610	1741951699738505000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/alarm/build/Qt_6_8_2_for_macOS-Debug/alarm_autogen/mocs_compilation.cpp	ad88b2bad2b51a29
+611	2081	1741951699762996430	CMakeFiles/alarm.dir/main.cpp.o	196ae22246d78684
+611	2089	1741951699763171547	CMakeFiles/alarm.dir/alarm.cpp.o	265659d302124375
+611	2098	1741951699762674112	CMakeFiles/alarm.dir/alarm_autogen/mocs_compilation.cpp.o	ef6b9725c521df4c
+2098	2382	1741951701249681503	alarm.app/Contents/MacOS/alarm	b939aeb109f3028a
