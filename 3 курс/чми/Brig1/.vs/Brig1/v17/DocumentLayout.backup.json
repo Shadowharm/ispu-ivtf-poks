@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|c:\\users\\\u043F\u0438\u0441\u044F\u0435\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\brig1\\brig1\\brig5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|solutionrelative:brig1\\brig5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|c:\\users\\\u043F\u0438\u0441\u044F\u0435\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\brig1\\brig1\\brig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|solutionrelative:brig1\\brig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|c:\\users\\\u043F\u0438\u0441\u044F\u0435\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\brig1\\brig1\\brig5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|solutionrelative:brig1\\brig5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|c:\\users\\\u043F\u0438\u0441\u044F\u0435\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\brig1\\brig1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|solutionrelative:brig1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\brig1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|solutionrelative:brig1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\brig1\\brig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|solutionrelative:brig1\\brig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\brig1\\brig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\ChMI.csproj|solutionrelative:brig1\\brig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\brig1\\brig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|solutionrelative:brig1\\brig2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\brig1\\brig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|solutionrelative:brig1\\brig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\brig1\\brig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA390258-CAE3-4B13-9D5A-7E64919D1168}|Brig1\\Brig1.csproj|solutionrelative:brig1\\brig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Brig5.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig5.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig5.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig5.cs",
+              "RelativeToolTip": "Brig1\\Brig5.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:04:54.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Program.cs",
+              "RelativeDocumentMoniker": "Brig1\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Program.cs",
+              "RelativeToolTip": "Brig1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:04:39.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Brig5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig5.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig5.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Brig1\\Brig5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:04:36.482Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Brig3.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig3.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig3.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig3.cs",
+              "RelativeToolTip": "Brig1\\Brig3.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:53:26.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Brig3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig3.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig3.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Brig1\\Brig3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:53:17.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Brig2.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig2.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig2.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig2.cs",
+              "RelativeToolTip": "Brig1\\Brig2.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwGQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:58:05.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Program.cs",
+              "RelativeDocumentMoniker": "Brig1\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Program.cs",
+              "RelativeToolTip": "Brig1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:56:54.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Brig2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig2.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig2.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Brig1\\Brig2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:55:18.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Brig1.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig1.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig1.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig1.cs",
+              "RelativeToolTip": "Brig1\\Brig1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:07:39.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Brig1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig1.cs",
+              "RelativeDocumentMoniker": "Brig1\\Brig1.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\\u0447\u043C\u0438\\Brig1\\Brig1\\Brig1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Brig1\\Brig1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:57:17.251Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

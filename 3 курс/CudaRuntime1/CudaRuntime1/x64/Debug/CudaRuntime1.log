@@ -1,0 +1,26 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\x64\Debug\kernel.cu.obj" "C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu" 
+C:\Users\╧шё ┼Ё°р\ispu-ivtf-poks\3 ъєЁё\CudaRuntime1\CudaRuntime1\kernel.cu(48): warning #550-D: variable "a" was set but never used
+    	double w = 0.0, a;
+    	                ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+  tmpxft_00005d24_00000000-7_kernel.cudafe1.cpp
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(21): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(21): note: рекомендуется использовать "%zd" в строке форматирования
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(22): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(22): note: рекомендуется использовать "%zd" в строке форматирования
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(25): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(25): note: рекомендуется использовать "%zd" в строке форматирования
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(30): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(30): note: рекомендуется использовать "%zd" в строке форматирования
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(32): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+  C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(32): note: рекомендуется использовать "%zd" в строке форматирования
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\CudaRuntime1\kernel.cu(59): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+     Создается библиотека C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\x64\Debug\CudaRuntime1.lib и объект C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\x64\Debug\CudaRuntime1.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  CudaRuntime1.vcxproj -> C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\CudaRuntime1\x64\Debug\CudaRuntime1.exe

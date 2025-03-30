@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChMI", "Brig1\ChMI.csproj", "{BA390258-CAE3-4B13-9D5A-7E64919D1168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA390258-CAE3-4B13-9D5A-7E64919D1168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA390258-CAE3-4B13-9D5A-7E64919D1168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA390258-CAE3-4B13-9D5A-7E64919D1168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA390258-CAE3-4B13-9D5A-7E64919D1168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13D2A38D-ADB1-440C-9956-AF0A9B9A786D}
+	EndGlobalSection
+EndGlobal

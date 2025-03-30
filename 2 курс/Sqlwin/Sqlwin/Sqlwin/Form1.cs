@@ -10,7 +10,7 @@ namespace Sqlwin
         private NpgsqlConnection connection;
         private NpgsqlDataAdapter adapter;
         private DataSet dataSet;
-        static string connectionString = "Server=localhost:5432;Database=db_ivtf;User Id=postgres;Password=admin;";
+        static string connectionString = "Server=192:168.1.79:5432;Database=db_ivtf;User Id=postgres;Password=admin;";
         public Form1()
         {
             InitializeComponent();

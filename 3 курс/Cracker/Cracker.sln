@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cracker", "Cracker\Cracker.csproj", "{51E12FFA-5304-4D8B-A6F9-A0E9E5CF8BEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E12FFA-5304-4D8B-A6F9-A0E9E5CF8BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E12FFA-5304-4D8B-A6F9-A0E9E5CF8BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E12FFA-5304-4D8B-A6F9-A0E9E5CF8BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E12FFA-5304-4D8B-A6F9-A0E9E5CF8BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {508E7529-2FDE-4B27-BA5A-4DC7C7894095}
+	EndGlobalSection
+EndGlobal
