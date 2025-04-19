@@ -1,51 +1,39 @@
 # ninja log v6
-764	3398	1743162036650330446	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
-668	3031	1743161927493015723	CMakeFiles/cafes.dir/CafeDelegate.cpp.o	cdc4d5fca6a16432
-3121	3410	1743161929946241924	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
-764	3327	1743162036649828671	CMakeFiles/cafes.dir/cafes_autogen/mocs_compilation.cpp.o	73ac67dc6a13d792
-764	3294	1743162036650156869	CMakeFiles/cafes.dir/main.cpp.o	66cd685e2ab78367
-18	763	1743162036627712000	cafes_autogen/timestamp	3c9e6aad79932a0b
+19	219	1743420201156735705	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+19	219	1743420201156735705	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
+19	219	1743420201156735705	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
 99	1412	1743160153058677293	CMakeFiles/cafes.dir/CafeModel.cpp.o	95ba8e0f08f35af0
-18	763	1743162036627712000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-18	763	1743162036627712000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-18	763	1743162036627712000	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	86	1743162056828770680	cafes_autogen/timestamp	3c9e6aad79932a0b
-11	86	1743162056828770680	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	86	1743162056828770680	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-11	86	1743162056828770680	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	87	1743162117158272710	cafes_autogen/timestamp	3c9e6aad79932a0b
-11	87	1743162117158272710	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	87	1743162117158272710	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-11	87	1743162117158272710	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-87	1487	1743162117234554494	CMakeFiles/cafes.dir/CafeDelegate.cpp.o	cdc4d5fca6a16432
-1487	1767	1743162118634117109	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
-12	97	1743162220154392837	cafes_autogen/timestamp	3c9e6aad79932a0b
-12	97	1743162220154392837	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-12	97	1743162220154392837	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-12	97	1743162220154392837	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-98	1768	1743162220239755128	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
-1768	2049	1743162221910265281	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
-11	94	1743162299964091091	cafes_autogen/timestamp	3c9e6aad79932a0b
-11	94	1743162299964091091	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	94	1743162299964091091	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-11	94	1743162299964091091	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-94	1772	1743162300047034500	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
-1772	2051	1743162301724536309	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
-20	102	1743162629523227047	cafes_autogen/timestamp	3c9e6aad79932a0b
-20	102	1743162629523227047	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-20	102	1743162629523227047	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-20	102	1743162629523227047	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-102	1955	1743162629605340732	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
-1955	2249	1743162631458323435	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
-16	96	1743162904939738118	cafes_autogen/timestamp	3c9e6aad79932a0b
-16	96	1743162904939738118	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-16	96	1743162904939738118	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-16	96	1743162904939738118	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	90	1743162932863053687	cafes_autogen/timestamp	3c9e6aad79932a0b
-11	90	1743162932863053687	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-11	90	1743162932863053687	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-11	90	1743162932863053687	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-9	86	1743162944153768589	cafes_autogen/timestamp	3c9e6aad79932a0b
-9	86	1743162944153768589	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
-9	86	1743162944153768589	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
-9	86	1743162944153768589	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+19	219	1743420201156735705	cafes_autogen/timestamp	3c9e6aad79932a0b
+810	3942	1743418223583720887	CMakeFiles/cafes.dir/main.cpp.o	66cd685e2ab78367
+809	3999	1743418223583432729	CMakeFiles/cafes.dir/cafes_autogen/mocs_compilation.cpp.o	73ac67dc6a13d792
+2550	2873	1743420203687693074	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
+810	3935	1743418223584043293	CMakeFiles/cafes.dir/CafeDelegate.cpp.o	cdc4d5fca6a16432
+220	2550	1743420201357263906	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
+17	1137	1743420317036677000	cafes_autogen/timestamp	3c9e6aad79932a0b
+17	1137	1743420317036677000	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+17	1137	1743420317036677000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
+17	1137	1743420317036677000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+13	118	1743420334421325248	cafes_autogen/timestamp	3c9e6aad79932a0b
+13	118	1743420334421325248	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+13	118	1743420334421325248	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
+13	118	1743420334421325248	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+15	1299	1743420423505707000	cafes_autogen/timestamp	3c9e6aad79932a0b
+15	1299	1743420423505707000	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+15	1299	1743420423505707000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
+15	1299	1743420423505707000	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+1300	4556	1743420423547682578	CMakeFiles/cafes.dir/main.cpp.o	66cd685e2ab78367
+1300	4608	1743420423547158811	CMakeFiles/cafes.dir/cafes_autogen/mocs_compilation.cpp.o	73ac67dc6a13d792
+1300	4683	1743420423547990772	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
+14	98	1743420435365688590	cafes_autogen/timestamp	3c9e6aad79932a0b
+14	98	1743420435365688590	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+14	98	1743420435365688590	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
+14	98	1743420435365688590	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+99	2577	1743420435450502198	CMakeFiles/cafes.dir/CafeDelegate.cpp.o	cdc4d5fca6a16432
+2578	2879	1743420437929423968	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172
+12	91	1743456657602074502	cafes_autogen/timestamp	3c9e6aad79932a0b
+12	91	1743456657602074502	cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+12	91	1743456657602074502	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/timestamp	3c9e6aad79932a0b
+12	91	1743456657602074502	/Users/maksim.prokhorov/ispu-ivtf-poks/3 курс/qt/cafes/build/Qt_6_8_2_for_macOS-Debug/cafes_autogen/mocs_compilation.cpp	3c9e6aad79932a0b
+91	1749	1743456657681570179	CMakeFiles/cafes.dir/mainwindow.cpp.o	cb082a7826947a3d
+92	1750	1743456657681867255	CMakeFiles/cafes.dir/CafeDelegate.cpp.o	cdc4d5fca6a16432
+1750	2089	1743456659340568001	cafes.app/Contents/MacOS/cafes	cd49f58fdf8b7172

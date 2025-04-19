@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
      MPI_Barrier(MPI_COMM_WORLD);
 
 
-    lab10(rank, size);
+    lab9(rank, size, 0);
 
     // MPI_Finalize();
     return 0;

@@ -28,7 +28,7 @@ AlarmClock::AlarmClock() : QWidget() {
     QHBoxLayout *timeLayout = new QHBoxLayout();
     timeLayout->addWidget(labelHours);
     timeLayout->addWidget(hourSpin);
-    timeLayout->addWidget(labelMinutes);]
+    timeLayout->addWidget(labelMinutes);
     timeLayout->addWidget(minuteSpin);
     mainLayout->addLayout(timeLayout);
 

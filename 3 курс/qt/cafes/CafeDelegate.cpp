@@ -1,6 +1,9 @@
 #include "CafeDelegate.h"
 #include <QComboBox>
 #include <QPainter>
+#include <QLineEdit>
+#include <QMessageBox>
+
 
 CafeDelegate::CafeDelegate(QObject *parent) : QStyledItemDelegate(parent) {}
 
@@ -25,18 +28,30 @@ void CafeDelegate::setEditorData(QWidget *editor, const QModelIndex &index) cons
 }
 
 void CafeDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &index) const {
+    QString newValue;
+
     if (index.column() == 2) {
         QComboBox *comboBox = qobject_cast<QComboBox *>(editor);
         if (comboBox) {
-            model->setData(index, comboBox->currentText(), Qt::EditRole);
+            newValue = comboBox->currentText();
         }
     } else {
-        QStyledItemDelegate::setModelData(editor, model, index);
+        QLineEdit *lineEdit = qobject_cast<QLineEdit *>(editor);
+        if (lineEdit) {
+            newValue = lineEdit->text().trimmed();
+        }
     }
+
+    if (newValue.isEmpty()) {
+        QMessageBox::warning(nullptr, "Ошибка", "Поле не может быть пустым!");
+        return;
+    }
+
+    model->setData(index, newValue, Qt::EditRole);
 }
 
 void CafeDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option,
-           const QModelIndex &index) const {
+           const QModelIndex &index) const {    
     if (index.column() == 2) {
         if (!(option.state & QStyle::State_Selected)) {
             painter->drawText(option.rect, Qt::AlignVCenter | Qt::AlignLeft,
@@ -46,4 +61,3 @@ void CafeDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option,
         QStyledItemDelegate::paint(painter, option, index);
     }
 }
-
