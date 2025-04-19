@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\CudaRuntime1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE105E16-29F8-464A-81BF-BD25D997C854}|CudaRuntime1\\CudaRuntime1.vcxproj|C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\CudaRuntime1\\CudaRuntime1\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CE105E16-29F8-464A-81BF-BD25D997C854}|CudaRuntime1\\CudaRuntime1.vcxproj|solutionrelative:CudaRuntime1\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kernel.cu",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\CudaRuntime1\\CudaRuntime1\\kernel.cu",
+              "RelativeDocumentMoniker": "CudaRuntime1\\kernel.cu",
+              "ToolTip": "C:\\Users\\\u041F\u0438\u0441\u044F\u0415\u0440\u0448\u0430\\ispu-ivtf-poks\\3 \u043A\u0443\u0440\u0441\\CudaRuntime1\\CudaRuntime1\\kernel.cu",
+              "RelativeToolTip": "CudaRuntime1\\kernel.cu",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-03T11:04:04.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

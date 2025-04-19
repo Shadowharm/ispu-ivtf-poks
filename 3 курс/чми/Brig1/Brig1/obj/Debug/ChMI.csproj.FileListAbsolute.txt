@@ -1,0 +1,12 @@
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\bin\Debug\Brig1.exe.config
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\bin\Debug\Brig1.exe
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\bin\Debug\Brig1.pdb
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\ChMI.csproj.AssemblyReference.cache
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\Brig1.Brig1.resources
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\Brig1.Brig2.resources
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\Brig1.Properties.Resources.resources
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\ChMI.csproj.GenerateResource.cache
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\ChMI.csproj.CoreCompileInputs.cache
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\Brig1.exe
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\Brig1.pdb
+C:\Users\ПисяЕрша\ispu-ivtf-poks\3 курс\чми\Brig1\Brig1\obj\Debug\Brig1.Brig3.resources
